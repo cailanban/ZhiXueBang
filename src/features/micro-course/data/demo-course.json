@@ -1,0 +1,122 @@
+{
+  "id": "demo-java-polymorphism",
+  "ownerId": "system",
+  "title": "Java 多态深入理解",
+  "description": "通过白板演示理解 Java 多态的核心概念：向上转型、动态绑定和 instanceof 运算符",
+  "subject": "Java",
+  "difficulty": "intermediate",
+  "durationSeconds": 180,
+  "status": "ready",
+  "voiceProvider": "browser",
+  "voiceId": "zh-CN-female",
+  "schemaVersion": 1,
+  "scenes": [
+    {
+      "id": "scene-1",
+      "courseId": "demo-java-polymorphism",
+      "order": 0,
+      "title": "导入：什么是多态",
+      "type": "slide",
+      "canvas": {
+        "width": 1000,
+        "height": 563,
+        "background": "#0f172a",
+        "elements": [
+          { "id": "title", "type": "text", "x": 80, "y": 80, "width": 840, "height": 60, "content": "Java 多态深入理解" },
+          { "id": "subtitle", "type": "text", "x": 80, "y": 180, "width": 840, "height": 40, "content": "向上转型 · 动态绑定 · instanceof" }
+        ]
+      },
+      "actions": [
+        { "id": "a1", "type": "spotlight", "elementId": "title" },
+        { "id": "a2", "type": "speech", "text": "大家好，今天我们来深入理解 Java 中最核心的面向对象特性——多态。多态让我们的代码更灵活、更可扩展。", "durationMs": 7500 },
+        { "id": "a3", "type": "laser", "elementId": "subtitle" },
+        { "id": "a4", "type": "speech", "text": "我们将从向上转型、动态绑定和方法重写三个角度来拆解多态的本质。", "durationMs": 6500 }
+      ],
+      "durationMs": 14000
+    },
+    {
+      "id": "scene-2",
+      "courseId": "demo-java-polymorphism",
+      "order": 1,
+      "title": "白板：向上转型演示",
+      "type": "whiteboard",
+      "canvas": {
+        "width": 1000,
+        "height": 563,
+        "background": "#1e293b",
+        "elements": []
+      },
+      "actions": [
+        { "id": "b1", "type": "wb_open" },
+        { "id": "b2", "type": "speech", "text": "我们先看向上转型。所谓向上转型，就是父类引用指向子类对象。比如 Animal animal = new Dog();", "durationMs": 8200 },
+        { "id": "b3", "type": "wb_draw_text", "elementId": "parent-label", "content": "父类引用\nAnimal animal", "x": 60, "y": 200, "width": 300, "height": 100, "fontSize": 20, "color": "#38bdf8" },
+        { "id": "b4", "type": "speech", "text": "左边是一个父类 Animal 的引用变量，它在编译时决定了可以调用哪些方法。", "durationMs": 6000 },
+        { "id": "b5", "type": "wb_draw_text", "elementId": "child-label", "content": "子类对象\nnew Dog()", "x": 640, "y": 200, "width": 300, "height": 100, "fontSize": 20, "color": "#a78bfa" },
+        { "id": "b6", "type": "wb_draw_line", "elementId": "arrow", "startX": 360, "startY": 250, "endX": 640, "endY": 250, "points": ["", "arrow"] },
+        { "id": "b7", "type": "speech", "text": "右边是真正的子类 Dog 对象。箭头表示引用关系。编译器只检查 Animal 类中的方法，但运行时执行的是 Dog 类中重写的方法。", "durationMs": 9500 },
+        { "id": "b8", "type": "wb_draw_text", "elementId": "compile-note", "content": "编译时：看左边（父类）", "x": 80, "y": 380, "width": 400, "height": 50, "fontSize": 16, "color": "#fbbf24" },
+        { "id": "b9", "type": "speech", "text": "编译阶段，编译器只认可父类中定义的方法签名。如果你调用子类特有的方法，编译器会直接报错。", "durationMs": 7200 },
+        { "id": "b10", "type": "wb_draw_text", "elementId": "runtime-note", "content": "运行时：看右边（子类）\n动态绑定！", "x": 520, "y": 380, "width": 420, "height": 70, "fontSize": 16, "color": "#34d399" },
+        { "id": "b11", "type": "speech", "text": "但在运行时，Java 虚拟机会找到真正的对象类型，执行子类中重写后的方法。这就是动态绑定——多态的核心机制。", "durationMs": 8500 },
+        { "id": "b12", "type": "wb_close" }
+      ],
+      "durationMs": 39500
+    },
+    {
+      "id": "scene-3",
+      "courseId": "demo-java-polymorphism",
+      "order": 2,
+      "title": "代码示例：方法重写",
+      "type": "slide",
+      "canvas": {
+        "width": 1000,
+        "height": 563,
+        "background": "#0f172a",
+        "elements": [
+          { "id": "code-title", "type": "text", "x": 60, "y": 30, "width": 880, "height": 40, "content": "代码示例：方法重写与多态调用" }
+        ]
+      },
+      "actions": [
+        { "id": "c1", "type": "spotlight", "elementId": "code-title" },
+        { "id": "c2", "type": "speech", "text": "现在我们看一段具体的代码。", "durationMs": 3000 },
+        { "id": "c3", "type": "wb_open" },
+        { "id": "c4", "type": "wb_draw_code", "elementId": "code-block", "language": "java", "code": "class Animal {\n  void sound() {\n    System.out.println(\"动物叫\");\n  }\n}\n\nclass Dog extends Animal {\n  @Override\n  void sound() {\n    System.out.println(\"汪汪汪\");\n  }\n}\n\nclass Cat extends Animal {\n  @Override\n  void sound() {\n    System.out.println(\"喵喵喵\");\n  }\n}", "x": 40, "y": 80, "width": 500, "height": 460 },
+        { "id": "c5", "type": "speech", "text": "这里定义了 Animal 父类和两个子类 Dog 和 Cat。每个子类都用 Override 注解重写了 sound 方法。", "durationMs": 7500 },
+        { "id": "c6", "type": "wb_draw_text", "elementId": "usage", "content": "Animal a1 = new Dog();\nAnimal a2 = new Cat();\n\na1.sound(); // 汪汪汪\na2.sound(); // 喵喵喵", "x": 590, "y": 200, "width": 370, "height": 200, "fontSize": 16, "color": "#e2e8f0" },
+        { "id": "c7", "type": "wb_draw_line", "elementId": "link", "startX": 540, "startY": 280, "endX": 590, "endY": 280, "points": ["", "arrow"] },
+        { "id": "c8", "type": "speech", "text": "当我们用 Animal 类型的引用调用 sound 方法时，Java 会根据实际的对象类型，自动选择正确的重写版本。这就是多态在代码中的体现。", "durationMs": 9000 },
+        { "id": "c9", "type": "wb_close" }
+      ],
+      "durationMs": 19500
+    },
+    {
+      "id": "scene-4",
+      "courseId": "demo-java-polymorphism",
+      "order": 3,
+      "title": "总结：三个关键点",
+      "type": "slide",
+      "canvas": {
+        "width": 1000,
+        "height": 563,
+        "background": "#0f172a",
+        "elements": [
+          { "id": "summary-title", "type": "text", "x": 80, "y": 60, "width": 840, "height": 50, "content": "多态的三个关键点" }
+        ]
+      },
+      "actions": [
+        { "id": "d1", "type": "spotlight", "elementId": "summary-title" },
+        { "id": "d2", "type": "speech", "text": "最后我们来总结多态的三个关键点。", "durationMs": 3500 },
+        { "id": "d3", "type": "wb_open" },
+        { "id": "d4", "type": "wb_draw_text", "elementId": "point1", "content": "1. 向上转型\n父类引用 = 子类对象\n编译看左边，运行看右边", "x": 60, "y": 140, "width": 400, "height": 120, "fontSize": 18, "color": "#38bdf8" },
+        { "id": "d5", "type": "speech", "text": "第一，理解向上转型：父类引用指向子类对象。这让我们可以用统一的类型操作不同的子类。", "durationMs": 6500 },
+        { "id": "d6", "type": "wb_draw_text", "elementId": "point2", "content": "2. 动态绑定\n运行时根据实际类型\n选择重写后的方法", "x": 540, "y": 140, "width": 400, "height": 120, "fontSize": 18, "color": "#a78bfa" },
+        { "id": "d7", "type": "speech", "text": "第二，动态绑定是核心。方法调用在运行时才确定执行哪个版本，这赋予了程序极大的灵活性。", "durationMs": 6500 },
+        { "id": "d8", "type": "wb_draw_text", "elementId": "point3", "content": "3. 方法重写\n@Override 注解\n子类提供自己的实现", "x": 280, "y": 340, "width": 440, "height": 120, "fontSize": 18, "color": "#34d399" },
+        { "id": "d9", "type": "speech", "text": "第三，方法重写是多态的前提。子类通过 Override 注解来重写父类方法，提供自己的实现版本。", "durationMs": 7000 },
+        { "id": "d10", "type": "wb_close" },
+        { "id": "d11", "type": "speech", "text": "多态是 Java 面向对象编程的基石，理解了它，你就掌握了写出灵活、可扩展代码的关键。感谢观看，我们下节课见！", "durationMs": 8000 }
+      ],
+      "durationMs": 31500
+    }
+  ]
+}

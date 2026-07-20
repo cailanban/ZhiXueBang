@@ -1,0 +1,2421 @@
+{
+  "course_id": "cet4",
+  "name": "四级英语",
+  "icon": "📖",
+  "description": "大学英语四级考试备考全攻略",
+  "level": "备考",
+  "duration": "60课时",
+  "chapters": [
+    {
+      "id": "ch01",
+      "title": "词汇与语法基础",
+      "topics": [
+        {
+          "id": "ch01_01",
+          "title": "四级核心词汇(Part1: A-C)",
+          "explanation": "## 概念理解\n四级核心词汇(Part1: A-C)是英语四级考试中高频出现的词汇集合，涵盖字母A至C开头的约300-500个基础但重要的单词。这些词汇是阅读理解、听力、写作和翻译的基础，掌握它们能有效提升考试得分。核心词汇包括动词、名词、形容词和副词等，例如“abandon”（放弃）、“benefit”（利益）、“challenge”（挑战）。它们通常具有多义性和固定搭配，需要结合语境理解。\n\n## 原理剖析\n四级词汇的考查基于“高频优先”原则，即从历年真题中统计出出现频率最高的词汇。A-C部分包含许多抽象概念（如“access”表示“通道”或“访问”）和实用动词（如“achieve”表示“实现”）。这些单词常涉及词根词缀（如“-able”表示“能够”），通过构词法可以扩展词汇量。记忆原理强调重复和语境化：每个单词需在句子中学习，例如“accommodate”既表示“容纳”也表示“适应”，其用法因搭配不同而变化。此外，同义词和反义词对比（如“accept” vs “reject”）有助于深化理解。\n\n## 实例演示\n以单词“acquire”为例：它意为“获得（知识、技能）”，如“She acquired fluency in English.”（她获得了流利的英语能力）。与“obtain”相比，“acquire”更强调通过努力获得抽象事物。另一个例子是“benefit”：作为名词时意为“利益”，如“The new policy brings many benefits.”；作为动词时意为“受益于”，如“Students benefit from regular practice.”。通过造句和替换练习，可以巩固用法。\n\n## 应用场景\n在四级考试中，A-C词汇出现在阅读文章的题干和选项中，例如“What is the main challenge?”；在听力对话中，如“Can you access the file?”；在写作中，使用“contribute to”代替“help”可提升词汇多样性。翻译部分也常考，如将“文化差异”译为“cultural differences”。日常学习中，建议用这些词汇描述身边事物，如“The campus provides various facilities.”（校园提供各种设施）。",
+          "illustration_hint": "A-C核心词汇树状图示例",
+          "mind_map": "mindmap\n  root((四级核心词汇 A-C))\n    高频动词\n      achieve\n      acquire\n      benefit\n    抽象名词\n      ability\n      access\n      challenge\n    常用形容词\n      absolute\n      accurate\n      beneficial\n    固定搭配\n      account for\n      adapt to\n      apply for",
+          "common_mistakes": [
+            {
+              "mistake": "混淆“accept”和“except”",
+              "reason": "拼写相似，词义不同",
+              "fix": "accept意为“接受”，except意为“除了”",
+              "memory_tip": "接受accept，除了except"
+            },
+            {
+              "mistake": "误用“affect”和“effect”",
+              "reason": "动词和名词形式混淆",
+              "fix": "affect是动词（影响），effect是名词（效果）",
+              "memory_tip": "影响用affect，效果用effect"
+            },
+            {
+              "mistake": "拼写错误“accommodation”",
+              "reason": "双c双m容易漏写",
+              "fix": "正确拼写：accommodation",
+              "memory_tip": "两个c两个m"
+            }
+          ],
+          "keywords": [
+            "abandon",
+            "benefit",
+            "challenge",
+            "access",
+            "acquire"
+          ],
+          "questions": [
+            {
+              "type": "single_choice",
+              "question": "The word \"abandon\" most likely means ______.",
+              "options": [
+                "A. 放弃",
+                "B. 接受",
+                "C. 拥抱",
+                "D. 提升"
+              ],
+              "answer": 0,
+              "explanation": "\"abandon\" 意为“放弃、遗弃”，是四级高频动词。选项A正确，其他选项与词义不符。"
+            },
+            {
+              "type": "single_choice",
+              "question": "Which of the following is the best synonym for \"benefit\"?",
+              "options": [
+                "A. Loss",
+                "B. Advantage",
+                "C. Damage",
+                "D. Problem"
+              ],
+              "answer": 1,
+              "explanation": "\"benefit\" 意为“利益、好处”，其同义词为 \"advantage\"。其他选项均为反义词或无关词。"
+            },
+            {
+              "type": "single_choice",
+              "question": "In the sentence \"She managed to ______ the task on time,\" which word fits best?",
+              "options": [
+                "A. abandon",
+                "B. achieve",
+                "C. accept",
+                "D. adjust"
+              ],
+              "answer": 1,
+              "explanation": "根据句意“她设法按时______任务”，\"achieve\"（完成、实现）最符合语境。\"abandon\"（放弃）相反，\"accept\"（接受）和\"adjust\"（调整）不搭配。"
+            },
+            {
+              "type": "single_choice",
+              "question": "What does \"access\" mean in the phrase \"gain access to the building\"?",
+              "options": [
+                "A. 出口",
+                "B. 通道",
+                "C. 钥匙",
+                "D. 权限"
+              ],
+              "answer": 1,
+              "explanation": "\"access\" 在此语境中意为“通道、入口”，\"gain access to\" 表示“进入”。选项B正确。"
+            },
+            {
+              "type": "single_choice",
+              "question": "The word \"challenge\" is closest in meaning to ______.",
+              "options": [
+                "A. 困难",
+                "B. 挑战",
+                "C. 改变",
+                "D. 机会"
+              ],
+              "answer": 1,
+              "explanation": "\"challenge\" 直接对应中文“挑战”，是四级核心名词。其他选项为混淆项。"
+            },
+            {
+              "type": "true_false",
+              "question": "The word \"accommodate\" can mean both \"to provide lodging\" and \"to adapt to\".",
+              "answer": true,
+              "explanation": "\"accommodate\" 确实有“容纳、提供住宿”和“适应、调节”两种常见含义，是四级多义词。"
+            },
+            {
+              "type": "true_false",
+              "question": "\"Abandon\" and \"retain\" are synonyms.",
+              "answer": false,
+              "explanation": "\"abandon\" 意为“放弃”，\"retain\" 意为“保留”，两者是反义词，不是同义词。"
+            },
+            {
+              "type": "true_false",
+              "question": "The prefix \"a-\" in \"abnormal\" means \"not\" or \"without\".",
+              "answer": true,
+              "explanation": "前缀 \"a-\" 常表示“不、无”，如 \"abnormal\"（不正常的）、\"amoral\"（非道德的）。"
+            },
+            {
+              "type": "true_false",
+              "question": "\"Benefit\" is only used as a noun in English.",
+              "answer": false,
+              "explanation": "\"benefit\" 既可作名词（利益），也可作动词（受益于），如 \"benefit from\"。"
+            },
+            {
+              "type": "true_false",
+              "question": "The word \"challenge\" always has a negative connotation.",
+              "answer": false,
+              "explanation": "\"challenge\" 可中性或正面，如 \"a challenging job\"（有挑战性的工作）常含积极意义。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "The new policy aims to ______ (促进) economic growth.",
+              "answer": "boost",
+              "explanation": "\"boost\" 意为“促进、推动”，是四级常考动词，符合句意。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "It is important to ______ (获得) practical skills during college.",
+              "answer": "acquire",
+              "explanation": "\"acquire\" 意为“获得（知识、技能）”，是四级核心动词，常用于学习语境。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "The hotel can ______ (容纳) up to 500 guests.",
+              "answer": "accommodate",
+              "explanation": "\"accommodate\" 表示“容纳”，与数量搭配。注意拼写中两个c和两个m。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "We must ______ (评估) the situation before making a decision.",
+              "answer": "assess",
+              "explanation": "\"assess\" 意为“评估、评价”，是四级正式用语，常与 situation, risk 等搭配。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "The ______ (好处) of exercise are well known.",
+              "answer": "benefits",
+              "explanation": "\"benefits\" 是 \"benefit\" 的复数形式，意为“好处、益处”。注意此处需用复数。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "请用所给单词的正确形式填空，并翻译整个句子：\nThe company decided to ______ (abandon / acceptance) the project due to lack of funds.\n然后写出一个同义句替换划线部分。",
+              "answer": "填空答案：abandon\n翻译：由于缺乏资金，公司决定放弃这个项目。\n同义句：The company decided to give up the project due to lack of funds.",
+              "explanation": "第一步：根据语境“lack of funds”可知应选动词，\"abandon\" 意为“放弃”，\"acceptance\" 是名词“接受”，不符合。\n第二步：翻译需注意“due to”译为“由于”。\n第三步：同义替换使用短语 \"give up\" 代替 \"abandon\"。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "阅读下列句子，判断划线单词的含义，并写出它的反义词：\n\"The new policy will benefit the whole community.\" 划线词：benefit\n然后，用该反义词造一个句子。",
+              "answer": "含义：利益，好处（动词时意为“使受益”）\n反义词：harm / damage\n造句：Pollution will harm the environment.",
+              "explanation": "第一步：根据句子结构，benefit 在此作动词，意为“使受益”。\n第二步：常见反义词为 harm 或 damage。\n第三步：造句需语法正确且语义通顺。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "请将下列单词按词性分类，并各造一个句子：\naccelerate, challenge, access, beneficial, accommodation",
+              "answer": "动词：accelerate（加速），challenge（挑战），access（访问）\n名词：challenge（挑战），access（通道），accommodation（住宿）\n形容词：beneficial（有益的）\n句子示例：\n1. The car accelerated quickly. (动词)\n2. This is a big challenge. (名词)\n3. We have access to the library. (名词)\n4. Regular exercise is beneficial. (形容词)\n5. The hotel provides accommodation. (名词)",
+              "explanation": "注意单词的多词性特点：challenge 和 access 既可作动词也可作名词。需按不同词性分别造句。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "阅读短文，从括号中选择合适的单词填空：\nMany students find it difficult to (1)______ (abandon / achieve) a balance between study and leisure. However, with proper planning, they can (2)______ (access / assess) their time more effectively. The (3)______ (benefit / challenge) of good time management is obvious.",
+              "answer": "(1) achieve  (2) assess  (3) benefit\n完整短文：Many students find it difficult to achieve a balance between study and leisure. However, with proper planning, they can assess their time more effectively. The benefit of good time management is obvious.",
+              "explanation": "(1) \"achieve a balance\" 是固定搭配，意为“达到平衡”。(2) \"assess time\" 意为“评估时间”。(3) \"benefit\" 在此作名词，意为“好处”。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "请用单词 \"accommodate\" 的两个不同含义分别造句，并说明每个句子中该词的含义。",
+              "answer": "句1: This classroom can accommodate 50 students. 含义：容纳\n句2: You should accommodate yourself to the new environment. 含义：适应",
+              "explanation": "\"accommodate\" 有两个常见义项：①容纳（及物动词，后接容量）；②适应（常接反身代词 + to）。造句时需体现不同搭配。"
+            }
+          ]
+        },
+        {
+          "id": "ch01_02",
+          "title": "四级核心词汇(Part2: D-G)",
+          "explanation": "## 概念理解\n本部分聚焦四级英语核心词汇中字母D至G开头的单词。这些词汇是阅读理解、写作和听力中的高频词，掌握它们能显著提升语言表达的准确性和流畅性。D-G词汇涵盖动词、名词、形容词等词性，如“demonstrate”（展示）、“efficient”（高效的）、“generate”（产生）等，它们常出现在学术语境、日常对话及新闻报道中。\n\n## 原理剖析\nD-G词汇的构词规律常涉及拉丁或希腊词根。例如，“de-”前缀常表示“向下、去除”（如decrease减少），“ex-”表示“向外”（如expose暴露），“gen-”表示“产生、起源”（如generate产生）。掌握这些词根有助于推测生词含义。此外，这些词汇的搭配模式也至关重要：动词常与特定介词或名词搭配（如“depend on”依赖，“focus on”聚焦），形容词则有固定比较级和最高级形式（如“efficient”变为“more efficient”）。通过联想记忆法（如将“frequent”与“频率”联想）和语境记忆法（如将“guarantee”放入购物保证场景），可加深印象。\n\n## 实例演示\n- **Demonstrate**：The scientist demonstrated the experiment to the class. (科学家向全班演示了实验。) 此处“demonstrate”意为“演示”，也可表示“证明”，如“The data demonstrates a clear trend.”\n- **Efficient**：Using a dishwasher is more efficient than washing by hand. (使用洗碗机比手洗更高效。) 注意“efficient”强调过程省时省力，而“effective”强调结果有效。\n- **Generate**：The wind turbine generates electricity for the village. (风力涡轮机为村庄发电。) 同义词有“produce”，但“generate”更强调从无到有的创造。\n\n## 应用场景\n在四级写作中，使用D-G词汇能提升文章档次。例如，描述图表趋势时用“dramatically increase”（急剧上升）代替“increase a lot”；在议论文中，用“fundamental”（根本的）强调基础，用“guarantee”（保证）增强说服力。听力部分，这些词常出现在学术讲座中，如“faculty”（全体教员）、“genuine”（真正的）。阅读理解中，识别这些词有助于快速定位主旨，如“globalization”（全球化）、“discrimination”（歧视）是常见主题词。",
+          "illustration_hint": "D-G核心词汇树状图展示",
+          "mind_map": "mindmap\n  root((D-G核心词汇))\n    D开头\n      demonstrate\n        演示\n        证明\n      decrease\n        减少\n        下降\n      depend\n        依赖\n        取决于\n    E开头\n      efficient\n        高效的\n        节省的\n      eliminate\n        消除\n        淘汰\n      expose\n        暴露\n        揭露\n    F开头\n      focus\n        聚焦\n        中心\n      frequent\n        频繁的\n        常去的\n      fundamental\n        根本的\n        基础的\n    G开头\n      generate\n        产生\n        发电\n      genuine\n        真正的\n        真诚的\n      guarantee\n        保证\n        担保",
+          "common_mistakes": [
+            {
+              "mistake": "混淆“efficient”和“effective”",
+              "reason": "两者中文都含“有效”，但“efficient”强调效率（省时省力），“effective”强调效果（达到目的）。",
+              "fix": "造句区分：用“efficient”描述过程（如高效机器），用“effective”描述结果（如有效药物）。",
+              "memory_tip": "效率省时，效果达目"
+            },
+            {
+              "mistake": "误用“depend”时缺少介词“on”",
+              "reason": "“depend”是不及物动词，常需搭配“on”才能接宾语，受中文“依赖”影响易漏掉介词。",
+              "fix": "固定搭配“depend on”，如“Success depends on hard work.”",
+              "memory_tip": "依赖必加on"
+            },
+            {
+              "mistake": "将“expose”拼写为“expos”",
+              "reason": "受“exposure”名词形式影响，或漏掉末尾“e”，拼写不完整。",
+              "fix": "动词“expose”以“e”结尾，注意拼写完整。",
+              "memory_tip": "动词末尾有e"
+            }
+          ],
+          "keywords": [
+            "demonstrate",
+            "efficient",
+            "generate",
+            "depend",
+            "genuine"
+          ],
+          "questions": [
+            {
+              "type": "single_choice",
+              "question": "The professor asked the students to ______ the experiment results in front of the class.",
+              "options": [
+                "A. demonstrate",
+                "B. decrease",
+                "C. defend",
+                "D. delay"
+              ],
+              "answer": 0,
+              "explanation": "demonstrate意为“展示、演示”，符合句意“教授要求学生向全班展示实验结果”。decrease（减少）、defend（防御）、delay（延迟）均不符合语境。"
+            },
+            {
+              "type": "single_choice",
+              "question": "Solar energy is considered an ______ source of power because it produces little pollution.",
+              "options": [
+                "A. efficient",
+                "B. elegant",
+                "C. enormous",
+                "D. essential"
+              ],
+              "answer": 0,
+              "explanation": "efficient意为“高效的”，符合句意“太阳能被认为是一种高效能源，因为其污染少”。elegant（优雅的）、enormous（巨大的）、essential（基本的）均不准确。"
+            },
+            {
+              "type": "single_choice",
+              "question": "The new policy aims to ______ more job opportunities for young graduates.",
+              "options": [
+                "A. generate",
+                "B. guarantee",
+                "C. gather",
+                "D. glance"
+              ],
+              "answer": 0,
+              "explanation": "generate意为“产生、创造”，符合句意“新政策旨在为年轻毕业生创造更多就业机会”。guarantee（保证）、gather（聚集）、glance（瞥见）均不符合。"
+            },
+            {
+              "type": "single_choice",
+              "question": "It is important to ______ on the key points rather than getting lost in details.",
+              "options": [
+                "A. focus",
+                "B. fade",
+                "C. float",
+                "D. flow"
+              ],
+              "answer": 0,
+              "explanation": "focus on是固定搭配，意为“聚焦于”，符合句意“聚焦关键点很重要，而不是迷失在细节中”。fade（褪色）、float（漂浮）、flow（流动）均无此搭配。"
+            },
+            {
+              "type": "single_choice",
+              "question": "The athlete's ______ training allowed him to break the world record.",
+              "options": [
+                "A. generous",
+                "B. gentle",
+                "C. genuine",
+                "D. gradual"
+              ],
+              "answer": 2,
+              "explanation": "genuine意为“真正的、真实的”，这里引申为“刻苦的、真正的训练”，符合句意。generous（慷慨的）、gentle（温和的）、gradual（逐渐的）均不贴切。"
+            },
+            {
+              "type": "true_false",
+              "question": "The prefix 'de-' in the word 'decrease' means 'to increase'.",
+              "answer": false,
+              "explanation": "de-前缀常表示“向下、去除”，decrease意为“减少”，因此de-并不表示“增加”。题干说法错误。"
+            },
+            {
+              "type": "true_false",
+              "question": "'Efficient' and 'effective' have exactly the same meaning and can be used interchangeably in all contexts.",
+              "answer": false,
+              "explanation": "efficient强调“高效、省时省力”，effective强调“有效果”，两者含义有区别，并非在所有语境中可互换。"
+            },
+            {
+              "type": "true_false",
+              "question": "The word 'generate' shares the same Latin root 'gen-' with 'gene' and 'genius'.",
+              "answer": true,
+              "explanation": "generate、gene、genius都源自拉丁词根gen-，意为“产生、起源、种族”，因此说法正确。"
+            },
+            {
+              "type": "true_false",
+              "question": "In the sentence 'She glanced at the watch', 'glanced' means 'stared intently'.",
+              "answer": false,
+              "explanation": "glance意为“瞥一眼、快速看”，而stare意为“凝视、盯着看”，两者含义相反，故题干错误。"
+            },
+            {
+              "type": "true_false",
+              "question": "The verb 'guarantee' can be followed by an infinitive (to do) or a that-clause.",
+              "answer": true,
+              "explanation": "guarantee后常接不定式（guarantee to do）或that从句（guarantee that...），表示“保证做某事”或“保证……”，用法正确。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "Many students find it hard to ______ (聚焦) on their homework when there is too much noise.",
+              "answer": "focus",
+              "explanation": "focus on意为“聚焦于”，句中需要动词原形，且与介词on搭配。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "The company offered a full money-back ______ (保证) if customers were not satisfied.",
+              "answer": "guarantee",
+              "explanation": "guarantee可作名词，意为“保证”，此处指“全额退款保证”。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "To ______ (展示) the new software, the engineer ran a live demo.",
+              "answer": "demonstrate",
+              "explanation": "demonstrate意为“展示、演示”，不定式to后接动词原形。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "The doctor advised him to ______ (减少) his intake of sugar and salt.",
+              "answer": "decrease",
+              "explanation": "decrease意为“减少”，符合句意“减少糖和盐的摄入”。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "The wind farm can ______ (产生) enough electricity to power 10,000 homes.",
+              "answer": "generate",
+              "explanation": "generate意为“产生（电力）”，情态动词can后接动词原形。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "请用所给词汇（demonstrate, efficient, generate, focus, guarantee）各造一个句子，并说明每个句子中该词的含义和词性。",
+              "answer": "1. demonstrate (动词): The teacher demonstrated the chemical reaction in class. 含义：演示。\n2. efficient (形容词): This new machine is more efficient than the old one. 含义：高效的。\n3. generate (动词): The plant generates electricity from solar panels. 含义：产生。\n4. focus (动词): You should focus on your studies instead of playing games. 含义：聚焦。\n5. guarantee (动词): The store guarantees a full refund within 30 days. 含义：保证。",
+              "explanation": "每个词汇需正确使用其词性和含义，句子结构完整、语法正确。注意动词的时态和搭配，形容词的修饰对象要合理。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "阅读下列短文，从方框中选择合适的词填空（每个词限用一次）：demonstrate, efficient, generate, focus, guarantee.\n\nThe new solar farm can ______ (1) clean energy for the whole town. It is more ______ (2) than traditional power plants. The engineers will ______ (3) how the system works to the public next week. They also ______ (4) that the farm will operate for at least 20 years. The project's main ______ (5) is on reducing carbon emissions.",
+              "answer": "(1) generate (2) efficient (3) demonstrate (4) guarantee (5) focus",
+              "explanation": "短文语境：太阳能发电厂“产生”清洁能源（generate），比传统电厂更“高效”（efficient），工程师将“展示”工作原理（demonstrate），并“保证”运营20年（guarantee），项目的“聚焦点”是减排（focus）。注意focus在此处作名词。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "请将下列句子翻译成英语，并注意使用本单元核心词汇（D-G）。\n1. 这次实验证明了他的理论是正确的。\n2. 这台新设备非常高效，能大幅减少能源消耗。\n3. 政府承诺会创造更多就业机会。\n4. 演讲者强调了团队合作的重要性。\n5. 这家公司保证产品质量。",
+              "answer": "1. This experiment demonstrated that his theory is correct.\n2. This new device is very efficient and can greatly decrease energy consumption.\n3. The government guarantees to generate more job opportunities.\n4. The speaker focused on the importance of teamwork.\n5. This company guarantees the quality of its products.",
+              "explanation": "翻译时注意词汇选择：demonstrate（证明）、efficient（高效的）、decrease（减少）、guarantee（保证/承诺）、generate（创造）、focus on（强调/聚焦）。时态和搭配要正确。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "根据提示写一段80词左右的短文，要求使用以下词汇中的至少4个：demonstrate, efficient, generate, focus, guarantee, decrease, frequent, genuine.\n提示：你正在介绍一款新型环保汽车。",
+              "answer": "Our new eco-friendly car is designed to be highly efficient. It can generate enough power with less fuel, which helps decrease pollution. The manufacturer guarantees a five-year warranty. The design focuses on both safety and comfort. Test drives will demonstrate its excellent performance.",
+              "explanation": "短文使用了efficient（高效的）、generate（产生）、decrease（减少）、guarantee（保证）、focus on（聚焦）、demonstrate（展示）共6个词汇，符合要求。内容围绕环保汽车展开，逻辑连贯。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "请分析下列句子中划线词汇的构词法，并写出其词根含义：\n1. The company tried to **deregulate** the industry.\n2. His speech was **exaggerated** and unrealistic.\n3. The **genesis** of the project was a casual conversation.",
+              "answer": "1. deregulate: de-（去除）+ regulate（管制）→ 去除管制，即“放松管制”。\n2. exaggerated: ex-（向外）+ agger（堆积）→ 向外堆积，即“夸张”。\n3. genesis: gen-（产生、起源）+ -esis（名词后缀）→ 起源、开端。",
+              "explanation": "通过分析词根和词缀，可以推测生词含义。de-表示“去除”，ex-表示“向外”，gen-表示“产生、起源”。掌握这些构词规律有助于扩大词汇量。"
+            }
+          ]
+        },
+        {
+          "id": "ch01_03",
+          "title": "常见语法规则总结",
+          "explanation": "## 概念理解\n常见语法规则总结是四级英语词汇与语法基础章节的核心内容，旨在帮助学习者掌握英语句子的基本结构、时态、语态、主谓一致、从句等关键规则。语法是语言的骨架，正确的语法使用能确保表达的准确性和逻辑性。本知识点涵盖最常考的语法现象，如一般现在时、过去时、将来时、被动语态、定语从句、状语从句等，以及名词单复数、冠词、介词搭配等细节。\n\n## 原理剖析\n英语语法基于“主谓宾”基本结构，时态通过动词变形体现动作发生的时间（现在、过去、将来）和状态（一般、进行、完成）。语态分为主动和被动，被动语态由“be+过去分词”构成。主谓一致指主语和谓语在人称、数上保持一致，常见规则包括：单数主语用单数动词，复数主语用复数动词；集合名词、不定代词等有特殊用法。从句分为名词性从句、定语从句和状语从句，分别充当句子中的名词、形容词或副词功能，需掌握引导词（如that, which, who, when, where）的用法。\n\n## 实例演示\n- 一般现在时：She goes to school every day.（表示习惯）\n- 被动语态：The book was written by him.（动作承受者作主语）\n- 主谓一致：Everyone is happy.（不定代词everyone作主语，动词用单数）\n- 定语从句：The man who is standing there is my teacher.（who引导的定语从句修饰the man）\n\n## 应用场景\n在四级考试中，语法规则直接应用于完形填空、翻译、写作和阅读理解。写作中需避免时态混乱、主谓不一致等错误；阅读中通过分析从句结构理解长难句；翻译时需准确转换中英文语序和时态。掌握这些规则能提升答题速度和准确性。",
+          "illustration_hint": "英语语法规则思维导图核心结构",
+          "mind_map": "mindmap\n  root((常见语法规则总结))\n    时态\n      一般时\n        一般现在时\n        一般过去时\n        一般将来时\n      进行时\n        现在进行时\n        过去进行时\n      完成时\n        现在完成时\n        过去完成时\n    语态\n      主动语态\n      被动语态\n    主谓一致\n      单数主语\n      复数主语\n      不定代词\n    从句\n      名词性从句\n      定语从句\n      状语从句",
+          "common_mistakes": [
+            {
+              "mistake": "主谓不一致：如\"He go to school\"",
+              "reason": "主语是第三人称单数，动词未加-s",
+              "fix": "改为\"He goes to school\"",
+              "memory_tip": "单三加s"
+            },
+            {
+              "mistake": "时态混用：如\"I have went\"",
+              "reason": "现在完成时应用过去分词，went是过去式",
+              "fix": "改为\"I have gone\"",
+              "memory_tip": "完成用分词"
+            },
+            {
+              "mistake": "被动语态缺be动词：如\"The letter sent\"",
+              "reason": "被动结构需要be动词",
+              "fix": "改为\"The letter was sent\"",
+              "memory_tip": "被动要加be"
+            },
+            {
+              "mistake": "定语从句引导词误用：如\"The man which is here\"",
+              "reason": "指人应用who而非which",
+              "fix": "改为\"The man who is here\"",
+              "memory_tip": "人用who物用which"
+            }
+          ],
+          "keywords": [
+            "语法规则",
+            "时态",
+            "主谓一致",
+            "被动语态",
+            "从句"
+          ],
+          "questions": [
+            {
+              "type": "single_choice",
+              "question": "下列哪个句子中的动词形式正确体现了“一般现在时”表示习惯的用法？",
+              "options": [
+                "A. She go to school every day.",
+                "B. She goes to school every day.",
+                "C. She went to school every day.",
+                "D. She is going to school every day."
+              ],
+              "answer": 1,
+              "explanation": "一般现在时表示习惯性动作，主语为第三人称单数时，动词需加-s或-es。选项B中的goes符合规则。A缺少-s，C是过去时，D是现在进行时，均不表示习惯。"
+            },
+            {
+              "type": "single_choice",
+              "question": "以下哪个选项的被动语态结构是正确的？",
+              "options": [
+                "A. The book was wrote by him.",
+                "B. The book was written by him.",
+                "C. The book is wrote by him.",
+                "D. The book written by him."
+              ],
+              "answer": 1,
+              "explanation": "被动语态的正确结构是“be动词 + 过去分词”。write的过去分词是written，因此B正确。A和C使用了错误的形式wrote，D缺少be动词。"
+            },
+            {
+              "type": "single_choice",
+              "question": "在“This is the house _____ I was born.”中，应填入哪个关系副词？",
+              "options": [
+                "A. which",
+                "B. that",
+                "C. where",
+                "D. when"
+              ],
+              "answer": 2,
+              "explanation": "定语从句中，先行词是地点（the house），且在从句中作地点状语，因此用关系副词where。which和that用于指物作主语或宾语，when用于时间。"
+            },
+            {
+              "type": "single_choice",
+              "question": "下列哪个句子主谓一致正确？",
+              "options": [
+                "A. The team are playing well.",
+                "B. Everyone in the class have a book.",
+                "C. Neither the teacher nor the students is ready.",
+                "D. Mathematics are my favorite subject."
+              ],
+              "answer": 0,
+              "explanation": "集合名词team在表示整体时用单数动词，但此处强调队员个体动作，用复数are可以接受，且为常见用法。B中everyone是单数，应改为has；C遵循就近原则，students是复数，应改为are；D中mathematics为单数学科，应改为is。"
+            },
+            {
+              "type": "single_choice",
+              "question": "“If I _____ you, I would accept the offer.” 应填入什么词？",
+              "options": [
+                "A. am",
+                "B. was",
+                "C. were",
+                "D. be"
+              ],
+              "answer": 2,
+              "explanation": "这是虚拟语气，表示与现在事实相反，be动词统一用were，因此选C。"
+            },
+            {
+              "type": "true_false",
+              "question": "“He has been to Beijing twice.” 这句话表示他曾经去过北京两次，且现在可能不在北京。",
+              "answer": true,
+              "explanation": "have been to表示“去过某地”，强调经历，现在不在该地。句子正确表达了该含义。"
+            },
+            {
+              "type": "true_false",
+              "question": "“The news are very exciting.” 这句话的语法是正确的。",
+              "answer": false,
+              "explanation": "news是不可数名词，谓语动词应用单数形式is，而不是are。正确句子应为“The news is very exciting.”"
+            },
+            {
+              "type": "true_false",
+              "question": "在定语从句中，当先行词被形容词最高级修饰时，关系代词只能用that。",
+              "answer": true,
+              "explanation": "先行词被形容词最高级、序数词或only、very等修饰时，关系代词通常用that，不用which或who。"
+            },
+            {
+              "type": "true_false",
+              "question": "“I wish I know the answer.” 这句话是语法正确的虚拟语气表达。",
+              "answer": false,
+              "explanation": "wish后的宾语从句用虚拟语气，表示与现在事实相反时，动词用过去式。know应改为knew。"
+            },
+            {
+              "type": "true_false",
+              "question": "“Not only he but also I am going to the party.” 这句话主谓一致是正确的。",
+              "answer": true,
+              "explanation": "not only...but also...遵循就近原则，谓语动词与最近的主语I保持一致，用am，正确。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "She usually _____ (go) to the library on weekends.",
+              "answer": "goes",
+              "explanation": "主语为第三人称单数，一般现在时表示习惯，动词go加-es变为goes。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "The window _____ (break) by the boy yesterday.",
+              "answer": "was broken",
+              "explanation": "根据yesterday可知是过去时，且window是动作承受者，用被动语态，结构为was + 过去分词，break的过去分词是broken。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "I don’t know the reason _____ he left early.",
+              "answer": "why",
+              "explanation": "定语从句中，先行词reason在从句中作原因状语，因此用关系副词why引导。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "Either the manager or his assistants _____ (be) responsible for the project.",
+              "answer": "are",
+              "explanation": "either...or...遵循就近原则，谓语动词与最近的assistants保持一致，assistants是复数，因此用are。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "It is essential that every student _____ (finish) the assignment on time.",
+              "answer": "finish",
+              "explanation": "在it is essential that引导的从句中，需要使用虚拟语气，动词用原形，因此填finish。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "请将下列句子改为被动语态，并说明每一步的变化：\"The students have completed the project.\"",
+              "answer": "参考答案：The project has been completed by the students.\n步骤：\n1. 找出宾语the project，将其变为主语。\n2. 原句时态为现在完成时（have completed），被动语态结构为have/has been + 过去分词。\n3. 原主语the students变为by the students。\n4. 注意主谓一致：the project是单数，因此助动词用has。",
+              "explanation": "解题思路：被动语态转换时，先确定时态，再调整主宾位置。现在完成时的被动语态公式为：主语 + have/has been + 过去分词 + by + 原主语。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "分析以下复合句，指出主句、从句类型及引导词：\"I will wait until you finish your work.\"",
+              "answer": "参考答案：\n- 主句：I will wait\n- 从句：until you finish your work（时间状语从句）\n- 引导词：until\n- 从句功能：修饰主句的谓语动词wait，表示时间条件。",
+              "explanation": "解题思路：until引导的从句表示动作持续到某个时间点，在句中充当状语，属于时间状语从句。识别从句类型可通过引导词和从句在句中的作用判断。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "请修改以下句子中的语法错误，并说明原因：\"He don't like coffee, and his brother don't neither.\"",
+              "answer": "参考答案：He doesn't like coffee, and his brother doesn't either.\n修改原因：\n1. 主语He是第三人称单数，否定应用doesn't而非don't。\n2. 同样，his brother为单数，应用doesn't。\n3. 否定句中的“也”应用either，而非neither（neither本身表示否定，不与don't连用）。",
+              "explanation": "解题思路：检查主谓一致（第三人称单数用doesn't），以及否定句中的并列结构。neither用于肯定句表示“两者都不”，而either用于否定句。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "将下列中文句子翻译成英语，注意时态和主谓一致：\"我们班的学生每天早晨都读英语。\"",
+              "answer": "参考答案：The students in our class read English every morning.\n步骤：\n1. 主语是“我们班的学生”，核心词为students（复数），谓语用原形read。\n2. “每天早晨”表示习惯，用一般现在时。\n3. 注意：in our class为介词短语修饰students，不影响主谓一致。",
+              "explanation": "解题思路：先确定主语和谓语，注意一般现在时的用法。复数主语students对应动词原形，时间状语every morning提示用一般现在时。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "请用定语从句合并以下两个句子，并说明引导词的选择理由：\"I met a man. His car was stolen.\"",
+              "answer": "参考答案：I met a man whose car was stolen.\n步骤：\n1. 确定先行词为a man。\n2. 第二个句子中的his car与先行词是所有关系，因此用关系代词whose。\n3. 合并后，whose car引导的定语从句修饰a man。",
+              "explanation": "解题思路：当从句中的名词与先行词有“所有”关系时，用whose引导。whose既可指人也可指物。"
+            }
+          ]
+        },
+        {
+          "id": "ch01_04",
+          "title": "词汇记忆方法与技巧",
+          "explanation": "## 概念理解\n词汇记忆方法与技巧是指在英语学习过程中，为了高效、牢固地掌握单词而采用的各种策略和手段。核心在于利用大脑的记忆规律，将孤立的单词转化为有意义的、可关联的、多感官参与的记忆单元，从而突破“背了忘、忘了背”的循环。\n\n## 原理剖析\n记忆的本质是神经元的连接与强化。艾宾浩斯遗忘曲线表明，信息在最初学习后迅速遗忘，但通过及时、有间隔的复习可以显著减缓遗忘。词汇记忆技巧正是基于此原理：\n1. **编码深度**：浅层编码（如机械重复）效果差，深层编码（如联想、造句、图像化）能建立更多神经连接。\n2. **提取练习**：主动回忆（如自测、默写）比单纯重读更有效。\n3. **情景嵌入**：将单词放入具体语境（如句子、故事、对话）中记忆，能激活更多脑区。\n4. **多感官参与**：听觉（听发音）、视觉（看拼写与图像）、动觉（手写）协同作用，强化记忆痕迹。\n\n## 实例演示\n以单词 \"abandon\"（放弃）为例：\n- **词根词缀法**：a-（加强）+ band（捆绑）+ -on（名词后缀）→ 加强捆绑 → 放弃（解开）？实际联想：a（一个）+ band（乐队）+ on（在…上）→ 一个乐队在台上演出，突然“放弃”了。\n- **联想记忆法**：\"abandon\" 发音类似“阿笨等”，想象一个叫“阿笨”的人一直在等，最终“放弃”了。\n- **语境记忆法**：造句 \"He had to abandon the plan due to lack of funds.\"（由于缺乏资金，他不得不放弃计划。）\n- **词根串联**：与 \"abandoned\"（被抛弃的）、\"abandonment\"（放弃）一起记忆。\n\n## 应用场景\n1. **背单词APP使用**：利用系统自带的间隔复习功能（如Anki、墨墨），结合联想笔记。\n2. **阅读中积累**：遇到生词时，先猜测意思再查词典，并记录在语境中的用法。\n3. **写作与口语**：主动使用新学的词汇造句或对话，实现“用中学”。\n4. **考前冲刺**：针对高频词汇，集中使用词根词缀法快速扩展词汇量。",
+          "illustration_hint": "大脑连接单词的神经网络示意图",
+          "mind_map": "mindmap\n  root((词汇记忆方法与技巧))\n    记忆原理\n      艾宾浩斯遗忘曲线\n      编码深度\n      提取练习\n      多感官参与\n    核心方法\n      词根词缀法\n        前缀\n        后缀\n        词根\n      联想记忆法\n        谐音联想\n        形象联想\n        故事联想\n      语境记忆法\n        例句造句\n        阅读上下文\n        影视对白\n      分类归纳法\n        主题分类\n        同义词反义词\n        词性归类\n    应用策略\n      间隔复习\n      主动回忆\n      输出运用\n    常见误区\n      只背不练\n      过度依赖单一方法\n      忽视发音",
+          "common_mistakes": [
+            {
+              "mistake": "只背单词拼写和中文意思，不记发音和用法",
+              "reason": "缺乏多感官参与和语境，导致听力听不懂、写作用不对",
+              "fix": "听标准发音跟读，并查看例句，理解单词在句子中的搭配",
+              "memory_tip": "音形义用，缺一不可"
+            },
+            {
+              "mistake": "每天背大量单词，但从不复习",
+              "reason": "违背艾宾浩斯遗忘曲线，学过即忘，效率极低",
+              "fix": "制定复习计划，利用间隔重复（如1天、3天、7天、30天）",
+              "memory_tip": "学新不忘旧，间隔最有效"
+            },
+            {
+              "mistake": "只用一种方法（如死记硬背）背所有单词",
+              "reason": "不同单词适合不同方法，单一方法容易枯燥且效果差",
+              "fix": "尝试组合使用词根词缀、联想、语境等多种方法",
+              "memory_tip": "方法要多样，单词才不慌"
+            },
+            {
+              "mistake": "背单词时不开口，只默看",
+              "reason": "缺少听觉和动觉刺激，记忆不牢固，且影响口语",
+              "fix": "大声朗读单词、例句，并手写拼写",
+              "memory_tip": "眼看口读手写，三管齐下"
+            }
+          ],
+          "keywords": [
+            "艾宾浩斯遗忘曲线",
+            "词根词缀",
+            "联想记忆",
+            "间隔重复",
+            "语境学习"
+          ],
+          "questions": [
+            {
+              "type": "single_choice",
+              "question": "根据艾宾浩斯遗忘曲线，以下哪种复习方式最能有效减缓遗忘？",
+              "options": [
+                "A. 一次性长时间反复背诵",
+                "B. 每天固定时间重复阅读",
+                "C. 按照先密后疏的间隔进行复习",
+                "D. 只在考试前集中复习"
+              ],
+              "answer": 2,
+              "explanation": "艾宾浩斯遗忘曲线表明，遗忘在学习后立即开始，且先快后慢。因此，按照先密后疏的间隔复习（如学习后1小时、1天、3天、7天）能最有效地巩固记忆。一次性长时间背诵或每天固定重复效果较差，考前集中复习则违背了间隔复习原则。"
+            },
+            {
+              "type": "single_choice",
+              "question": "以下哪种记忆策略属于“深层编码”？",
+              "options": [
+                "A. 将单词抄写10遍",
+                "B. 大声朗读单词拼写",
+                "C. 用单词造句并联想场景",
+                "D. 看着单词表反复默念"
+              ],
+              "answer": 2,
+              "explanation": "深层编码是指对信息进行意义加工，建立丰富联想。用单词造句并联想场景能激活多个脑区，形成更强的神经连接。而抄写、朗读、默念都属于浅层编码，主要依赖机械重复，记忆效果较差。"
+            },
+            {
+              "type": "single_choice",
+              "question": "关于“提取练习”，下列哪项描述最准确？",
+              "options": [
+                "A. 提取练习就是反复阅读课文",
+                "B. 提取练习是指主动回忆所学内容",
+                "C. 提取练习等同于做大量选择题",
+                "D. 提取练习只需要在脑中回想，不需要写出来"
+              ],
+              "answer": 1,
+              "explanation": "提取练习是指主动从大脑中检索信息的过程，如自测、默写、口头复述等。研究表明，主动回忆比单纯重读更有效。做选择题是提取练习的一种形式，但并非全部；而脑中回想若不输出，效果会打折扣。"
+            },
+            {
+              "type": "single_choice",
+              "question": "在记忆单词“abandon”时，使用“a（一个）+ band（乐队）+ on（在…上）→ 一个乐队在舞台上，但主唱突然放弃演出”这种记忆方法属于哪种技巧？",
+              "options": [
+                "A. 词根词缀法",
+                "B. 联想法",
+                "C. 分类记忆法",
+                "D. 语境记忆法"
+              ],
+              "answer": 1,
+              "explanation": "题干中通过将单词拆解为“a+band+on”并编造故事进行记忆，属于典型的联想法。联想法利用已有的知识或图像与单词建立联系，是一种深层编码策略。词根词缀法侧重词源，分类法按主题分组，语境法强调在句子中记忆，均与题干描述不同。"
+            },
+            {
+              "type": "single_choice",
+              "question": "以下哪一项最符合“多感官参与”的词汇记忆方法？",
+              "options": [
+                "A. 只看单词书，不出声",
+                "B. 听单词音频同时看拼写，并用手写一遍",
+                "C. 只用手机App刷单词",
+                "D. 与同学互相提问但不动笔"
+              ],
+              "answer": 1,
+              "explanation": "多感官参与强调听觉、视觉、动觉协同作用。听音频（听觉）、看拼写（视觉）、手写（动觉）同时进行，能强化记忆痕迹。只阅读、只用App或只口头提问都只调动了部分感官，效果不如多感官协同。"
+            },
+            {
+              "type": "true_false",
+              "question": "记忆的本质是神经元的连接与强化，因此只要重复次数足够多，就一定能把单词记住。",
+              "answer": false,
+              "explanation": "记忆的本质确实是神经元的连接与强化，但单纯机械重复（浅层编码）效果有限。大脑需要意义加工、联想、情景嵌入等深层编码才能建立牢固的神经连接。仅靠重复次数，不注重编码深度和提取练习，很容易陷入“背了忘”的循环。"
+            },
+            {
+              "type": "true_false",
+              "question": "将单词放入具体句子或故事中记忆，属于“情景嵌入”策略，能激活更多脑区。",
+              "answer": true,
+              "explanation": "情景嵌入是指将单词置于有意义的语境（如句子、故事、对话）中，使单词与场景、情感、逻辑关联，从而激活视觉、听觉、语义等多个脑区。这比孤立记忆单词更有效，符合深层编码和情境学习原理。"
+            },
+            {
+              "type": "true_false",
+              "question": "艾宾浩斯遗忘曲线告诉我们，遗忘是先慢后快的，所以复习应该先疏后密。",
+              "answer": false,
+              "explanation": "艾宾浩斯遗忘曲线表明，遗忘在学习后立即开始，且速度先快后慢。因此，复习策略应该是先密后疏，即在遗忘最快的时间点（如学习后几小时到一天内）及时复习，之后再逐渐拉长间隔。先疏后密会错过最佳巩固时机。"
+            },
+            {
+              "type": "true_false",
+              "question": "词根词缀法只适合记忆长单词，对短单词没有帮助。",
+              "answer": false,
+              "explanation": "词根词缀法同样适用于短单词。许多短单词也包含词根或词缀，例如“act”（行动）是词根，“react”（反应）中的“re-”是前缀。即使单词本身很短，了解其构词成分也有助于理解词义和派生词。因此，该方法对所有单词均有帮助。"
+            },
+            {
+              "type": "true_false",
+              "question": "在词汇记忆中，“提取练习”比“重复阅读”效果更好，因为前者需要主动回忆。",
+              "answer": true,
+              "explanation": "大量认知心理学研究证实，主动回忆（提取练习）比被动重读更能巩固记忆。提取过程迫使大脑检索信息，强化神经连接，而重复阅读只是再次输入，容易产生“熟悉错觉”，实际记忆效果较弱。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "艾宾浩斯遗忘曲线表明，信息在最初学习后迅速遗忘，但通过及时、有间隔的___可以显著减缓遗忘。",
+              "answer": "复习",
+              "explanation": "艾宾浩斯遗忘曲线揭示了遗忘的规律，而克服遗忘最有效的方法就是及时、有间隔的复习。复习能强化神经连接，将短期记忆转化为长期记忆。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "记忆技巧中，利用___（如造句、编故事）能将单词转化为有意义的记忆单元，属于深层编码。",
+              "answer": "语境",
+              "explanation": "将单词放入具体语境（如句子、故事）中记忆，可以激活更多脑区，建立语义联系，从而加深编码深度。这是词汇记忆的重要技巧之一。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "单词“unbelievable”由“un-”（不）、“believe”（相信）和“-able”（能…的）组成，这种记忆方法称为___法。",
+              "answer": "词根词缀",
+              "explanation": "词根词缀法通过分析单词的前缀、后缀和词根来理解词义，是高效的词汇记忆技巧。“un-”是否定前缀，“-able”是形容词后缀，组合起来就是“不可相信的”。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "为了突破“背了忘、忘了背”的循环，应该将孤立的单词转化为有意义的、可关联的、___参与的记忆单元。",
+              "answer": "多感官",
+              "explanation": "多感官参与（如听、看、写、说）能激活多个脑区，强化记忆痕迹，是高效词汇记忆的重要策略。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "在词汇记忆中，通过自测、默写等方式主动回忆所学内容，这种策略被称为___。",
+              "answer": "提取练习",
+              "explanation": "提取练习是指主动从大脑中检索信息，而非被动重读。研究表明，提取练习能显著提高长期记忆效果，是比重复阅读更有效的学习策略。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "请运用至少两种词汇记忆技巧（如词根词缀法、联想法、语境法、多感官法等），详细说明如何记忆单词“conspicuous”（显眼的，引人注目的）。要求写出具体的记忆步骤，并解释为什么这些方法有效。",
+              "answer": "参考答案：\n方法一：词根词缀法\n- 拆解：con-（共同，加强）+ spic（看，词根）+ -uous（形容词后缀，表示“有…性质的”）→ 共同看、大家都看 → 显眼的。\n- 步骤：先记住词根spic（看），再结合前缀后缀理解词义。\n- 为什么有效：通过拆解，将长单词分解为有意义的构件，减轻记忆负担，同时有助于记忆同根词（如spectacular, inspect）。\n\n方法二：联想法 + 多感官法\n- 联想：con（像“看”）+ spic（谐音“四壁”）+ uous（谐音“有丝”）→ 想象一个人站在四面墙壁中间，身上缠着丝线，非常显眼。\n- 多感官：一边想象画面（视觉），一边大声读出发音/kənˈspɪkjuəs/（听觉），同时手写几遍（动觉）。\n- 为什么有效：联想法将抽象单词转化为生动图像，激活视觉脑区；多感官协同强化神经连接，提高记忆牢固度。\n\n方法三：语境法\n- 造句：\"The red dress made her conspicuous at the party.\"（那条红裙子使她在派对上很显眼。）\n- 步骤：将单词放入具体场景，想象派对画面，并反复朗读句子。\n- 为什么有效：语境提供了语义和情感线索，使单词与真实场景关联，提取时更容易激活。",
+              "explanation": "本题考察综合运用多种词汇记忆技巧的能力。词根词缀法利用构词规律，联想法利用图像和声音，语境法利用真实场景，多感官法调动多种输入通道。组合使用能发挥各自优势，实现深层编码和牢固记忆。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "小张计划在30天内记住300个四级高频词汇，但他经常感到“背了就忘”。请结合艾宾浩斯遗忘曲线和词汇记忆技巧，为他设计一个为期30天的学习计划，包括每日任务、复习安排以及至少三种具体记忆方法。要求计划可操作性强，并解释设计原理。",
+              "answer": "参考答案：\n【总目标】30天掌握300词，每天学习10个新词。\n\n【每日任务】\n1. 早晨（30分钟）：学习10个新词。\n   - 使用词根词缀法拆解单词（如“predict”= pre-前 + dict说）。\n   - 为每个单词编写一个简短句子（语境法）。\n   - 在单词卡片正面写单词、音标，背面写释义和例句。\n2. 中午（10分钟）：复习当天新词（提取练习）：遮住释义，看单词回忆意思；遮住单词，看释义回忆拼写。\n3. 傍晚（15分钟）：复习前一天及前3天学的单词（按间隔复习）。\n4. 睡前（10分钟）：听当天单词的音频，同时闭眼回忆图像或句子（多感官法）。\n\n【复习安排（基于艾宾浩斯曲线）】\n- 第1次复习：学习后1小时（中午）。\n- 第2次复习：学习后1天（第二天傍晚）。\n- 第3次复习：学习后3天。\n- 第4次复习：学习后7天。\n- 第5次复习：学习后15天。\n- 第6次复习：学习后30天（总复习）。\n使用表格或App记录每个单词的复习时间点。\n\n【具体记忆方法】\n1. 词根词缀法：用于理解词义和派生词，如“invisible”= in-不 + vis看 + -ible能…的。\n2. 联想法：将单词与熟悉的事物挂钩，如“ambulance”（救护车）谐音“俺不能死”。\n3. 语境法：每个单词造一个与自己生活相关的句子，如“I need to memorize these words.”（memorize）。\n\n【设计原理】\n- 艾宾浩斯遗忘曲线：通过先密后疏的间隔复习，在遗忘的关键节点强化记忆，将短期记忆转化为长期记忆。\n- 提取练习：每天中午和傍晚的自测迫使大脑主动检索，比重读更有效。\n- 多感官与深层编码：词根词缀、联想、语境等方法增加了编码深度，建立更多神经连接。\n- 分散学习：每天10个词比一次学100个效果好，符合“分散效应”。",
+              "explanation": "本题要求综合运用遗忘曲线和记忆技巧设计学习方案。计划需体现：间隔复习、提取练习、深层编码、多感官参与等原则。解析中要说明每个安排背后的记忆原理，展示理论与实践的结合。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "请从“词根词缀法”和“联想法”中各选一个例子，分别写出记忆单词“benevolent”（仁慈的）和“gossip”（八卦，闲聊）的具体步骤，并比较这两种方法的优缺点。",
+              "answer": "参考答案：\n\n【词根词缀法记忆benevolent】\n- 拆解：bene-（好，善）+ vol（意愿，意志）+ -ent（形容词后缀）→ 好意的 → 仁慈的。\n- 步骤：①识别前缀bene-（如benefit好处）；②识别词根vol（如voluntary自愿的）；③组合理解词义。\n- 优点：系统性强，能举一反三，记忆同根词（如benevolence）。\n- 缺点：对词根不熟悉的学习者需要先积累词根知识，入门有门槛。\n\n【联想法记忆gossip】\n- 联想：go（去）+ s（谐音“是”）+ sip（小口喝）→ 想象一群人去咖啡馆，一边小口喝咖啡一边聊八卦。\n- 步骤：①将单词拆成“go+s+sip”；②编造一个生动的场景；③边想象边重复单词发音。\n- 优点：趣味性强，容易记住，适合形象思维好的学习者。\n- 缺点：联想可能牵强，且对单词的构词规律帮助不大，难以扩展到其他单词。\n\n【比较】\n- 词根词缀法更科学系统，有助于理解单词的内在逻辑和派生关系，但需要一定基础。\n- 联想法更灵活直观，适合快速记忆，但联想内容因人而异，有时不够准确。\n- 实际使用中可结合：先尝试词根词缀分析，若单词构词复杂，再辅以联想。",
+              "explanation": "本题要求考生实际应用两种方法并比较。词根词缀法强调构词规律，联想法强调形象关联。解析需指出各自适用场景和局限性，并建议综合使用以取长补短。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "在四级考试中，你遇到了生词“ambiguous”（模糊的，模棱两可的）。请运用至少三种记忆技巧（如词根词缀、语境、多感官、提取练习等）来记住这个词，并设计一个包含该词的句子。最后，说明你将如何安排复习以巩固记忆（基于艾宾浩斯遗忘曲线）。",
+              "answer": "参考答案：\n\n【记忆技巧】\n1. 词根词缀法：ambi-（两边）+ gu（引导）+ -ous（形容词后缀）→ 两边引导的 → 方向不明确 → 模糊的。记住词根“amb-”表示“两边”（如ambidextrous双手灵巧的）。\n2. 语境法：造句“His answer was ambiguous, so I didn't know which option to choose.”（他的回答模棱两可，所以我不知道该选哪个选项。）想象考试中遇到这种情景。\n3. 多感官法：①听单词音频/音标/æmˈbɪɡjuəs/；②看拼写并注意字母组合“ambi”；③手写3遍；④边写边小声读。\n4. 提取练习：学完后1小时，遮住释义回忆词义；第二天遮住单词回忆拼写。\n\n【复习安排（基于艾宾浩斯遗忘曲线）】\n- 第1次复习：学习后1小时（提取练习）。\n- 第2次复习：学习后1天（用单词造句并默写）。\n- 第3次复习：学习后3天（在单词表中快速回忆）。\n- 第4次复习：学习后7天（做包含该词的练习题）。\n- 第5次复习：学习后15天（总复习，与其他易混词如“ambiguous”和“ambivalent”对比）。",
+              "explanation": "本题综合考查多种记忆方法的实际运用和复习策略。词根词缀帮助理解，语境提供场景，多感官强化痕迹，提取练习巩固记忆。复习安排遵循先密后疏原则，在遗忘关键点及时巩固，确保长期掌握。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch02",
+      "title": "听力理解",
+      "topics": [
+        {
+          "id": "ch02_01",
+          "title": "短篇新闻听力技巧",
+          "explanation": "## 概念理解\n短篇新闻听力技巧是指在四级英语听力考试中，针对新闻体裁的听力材料，运用特定的策略和方法来高效获取关键信息、理解主旨大意并准确作答的能力。新闻听力通常具有结构清晰、信息密集、语速较快的特点，涉及政治、经济、科技、文化等多领域内容。\n\n## 原理剖析\n新闻听力材料的典型结构是“倒金字塔”式：开头的第一句话（导语）概括了时间、地点、人物、事件、原因等核心要素（5W1H）。后续内容则按重要性递减顺序展开细节。因此，抓住导语是解题的关键。同时，新闻中常出现专有名词、数字、转折词（如but, however）和强调词（如most importantly），这些往往是考点。考生需训练在有限时间内预测话题、识别信号词、速记关键信息，并排除干扰选项（如偷换主语、时态错误、细节张冠李戴）。\n\n## 实例演示\n以2023年6月四级真题为例：\n听力原文开头：\"Rescue workers in Indonesia are searching for dozens of people after a landslide...\"\n问题：What happened in Indonesia?\n技巧运用：听到“Rescue workers”和“landslide”即可锁定事件为“山体滑坡救援”，无需听完全文。\n\n## 应用场景\n此技巧适用于四级听力第一部分（短篇新闻共3篇，每篇约150词，设2-3题），也适用于日常收听英语新闻（如BBC、VOA）时快速把握要点。在考试中，考生应在播放指令时快速浏览选项，预判主题；听时重点抓导语和信号词；听后迅速对比选项，避免纠结细节。",
+          "illustration_hint": "新闻倒金字塔结构与导语抓取示意图",
+          "mind_map": "mindmap\n  短篇新闻听力技巧\n    核心策略\n      抓导语\n        5W1H\n        第一句话\n      预测主题\n        扫读选项\n        联想背景\n      识别信号词\n        转折词\n        强调词\n        数字词\n    常见题型\n      主旨题\n        问中心思想\n      细节题\n        问时间/地点/数字\n      推断题\n        问隐含信息\n    易错点\n      信息冗余\n        忽略干扰项\n      语速过快\n        提前预判\n      词汇障碍\n        积累主题词\n    训练方法\n      精听\n        逐句听写\n      泛听\n        每日新闻\n      模拟练习\n        真题演练",
+          "common_mistakes": [
+            {
+              "mistake": "试图听懂每一个单词，导致错过关键信息",
+              "reason": "新闻语速快，逐词听容易跟不上节奏，忽略导语和信号词",
+              "fix": "集中注意力抓取导语（第一句）和转折词后的内容，允许略过次要细节",
+              "memory_tip": "抓大头，放小头"
+            },
+            {
+              "mistake": "忽略选项预判，直接听录音",
+              "reason": "没有提前浏览选项，导致听时无方向，信息处理效率低",
+              "fix": "在播放指令时快速扫读选项，圈出关键词（如时间、地点、人物），预测新闻主题",
+              "memory_tip": "先看后听"
+            },
+            {
+              "mistake": "被数字或专有名词吓到，影响后续理解",
+              "reason": "遇到陌生名词或复杂数字时心理紧张，导致思维中断",
+              "fix": "将数字或专有名词当作符号速记，关注其前后语境，不必纠结发音",
+              "memory_tip": "符号速记"
+            },
+            {
+              "mistake": "听到似曾相识的选项就立即选择，不核对原文",
+              "reason": "选项常设置原词复现陷阱，实际意思可能不同",
+              "fix": "听完所有内容后再作答，对比选项与原文是否完全匹配（注意同义替换）",
+              "memory_tip": "听全再选"
+            }
+          ],
+          "keywords": [
+            "导语抓取",
+            "5W1H",
+            "信号词",
+            "选项预判",
+            "同义替换"
+          ],
+          "questions": []
+        },
+        {
+          "id": "ch02_02",
+          "title": "长对话听力技巧",
+          "explanation": "## 概念理解\n长对话听力技巧是指在四级英语听力理解部分，针对篇幅较长、信息量较大的对话（通常为2-3分钟，2人对话）所采用的一系列听前、听中、听后的策略和方法。其核心在于克服短时记忆限制，高效捕捉关键信息，从而准确回答后续问题。与短对话不同，长对话包含更多细节、逻辑关系和人物态度，需要考生具备信息筛选、推理和预测能力。\n\n## 原理剖析\n长对话听力遵循“预测-验证-筛选”的认知原理。听前，利用题目选项和题干进行话题、场景和问题类型的预测，激活相关背景知识；听中，注意力分配遵循“关键信息优先”原则，即重点捕捉对话开头（主题句）、转折词（but, however）、强调词（especially, in fact）、问答环节（答案常在此处）以及列举项（first, second）；听后，通过短期记忆与笔记的结合，对信息进行整合与推理，排除干扰项。干扰项通常表现为“听到即选”（原词复现但非答案）、“张冠李戴”（将A的观点强加给B）或“偷换概念”（同义替换但含义不同）。\n\n## 实例演示\n例题：对话中男士说“I was planning to go to the library, but then I saw a poster about a free concert.” 问题：What did the man originally intend to do? 技巧应用：听前预测选项可能包含“go to library”、“attend concert”等；听中注意“but”后的转折，但问题问的是“originally”，因此答案应在转折前，即“go to the library”。需警惕“free concert”作为干扰项。\n\n## 应用场景\n此技巧适用于四级听力Section B中的两篇长对话（每篇约250词，设4-5题），也适用于雅思、托福等考试的长对话部分。在实际考试中，考生可运用“首句定位法”快速把握主旨，利用“问答原则”锁定细节，通过“逻辑信号词”预测问题走向。日常练习时，建议先盲听一遍抓大意，再精听做笔记，最后对照原文验证预测。",
+          "illustration_hint": "长对话听力三步法：预测、捕捉、推理",
+          "mind_map": "mindmap\n  长对话听力技巧\n    听前预测\n      浏览选项\n        找高频词定话题\n        分析选项差异\n      预测问题类型\n        主旨题\n        细节题\n        推断题\n    听中捕捉\n      关注开头\n        主题句\n        人物关系\n      抓住信号词\n        转折词（but, however）\n        因果词（because, so）\n        列举词（first, then）\n      注意问答\n        提问处常出题\n        回答即答案\n    听后推理\n      排除干扰项\n        原词干扰\n        张冠李戴\n      核对笔记\n        逻辑一致性\n        同义替换识别",
+          "common_mistakes": [
+            {
+              "mistake": "听到什么选什么，忽视同义替换和逻辑转折",
+              "reason": "依赖原词复现，缺乏对句子整体含义的理解",
+              "fix": "训练识别常见同义替换（如plan to do = intend to），重点关注but等转折词后的信息",
+              "memory_tip": "转折之后是答案"
+            },
+            {
+              "mistake": "笔记记太多，导致错过后续关键信息",
+              "reason": "试图记录完整句子，分散注意力",
+              "fix": "用缩写、符号（如↑表示increase，&表示and）只记关键词，如数字、人名、动词",
+              "memory_tip": "记词不记句"
+            },
+            {
+              "mistake": "忽视对话开头，直接进入细节",
+              "reason": "认为开头不重要，实际常含主旨和背景",
+              "fix": "前30秒高度集中，捕捉who, what, where等基本要素",
+              "memory_tip": "开头定乾坤"
+            }
+          ],
+          "keywords": [
+            "预测",
+            "信号词",
+            "同义替换",
+            "问答原则",
+            "干扰项排除"
+          ],
+          "questions": [
+            {
+              "type": "single_choice",
+              "question": "在长对话听力中，听前阶段最重要的策略是什么？",
+              "options": [
+                "A. 立即开始听录音",
+                "B. 快速浏览题目和选项，预测话题和问题类型",
+                "C. 记住每个单词的发音",
+                "D. 忽略选项，专注听对话"
+              ],
+              "answer": 1,
+              "explanation": "听前利用题目选项和题干进行话题、场景和问题类型的预测，可以激活背景知识，提高听力效率。这是长对话听力技巧中的核心策略之一。"
+            },
+            {
+              "type": "single_choice",
+              "question": "长对话中，答案最常出现在哪个部分？",
+              "options": [
+                "A. 对话开头第一句",
+                "B. 对话中间随意部分",
+                "C. 问答环节以及转折词之后",
+                "D. 对话结尾的告别语"
+              ],
+              "answer": 2,
+              "explanation": "长对话中，问答环节和转折词（如but, however）之后往往是关键信息所在，答案常在此处出现。这是“关键信息优先”原则的体现。"
+            },
+            {
+              "type": "single_choice",
+              "question": "下列哪项属于长对话听力中的干扰项类型？",
+              "options": [
+                "A. 与原文完全一致的信息",
+                "B. 听到即选（原词复现但非答案）",
+                "C. 对话中未提及的内容",
+                "D. 与主题无关的细节"
+              ],
+              "answer": 1,
+              "explanation": "“听到即选”是一种常见干扰项，即选项中出现了对话中的原词，但该词并非正确答案所在位置，容易误导考生。其他选项如完全一致的信息可能是正确答案，未提及或无关细节一般不会作为干扰项。"
+            },
+            {
+              "type": "single_choice",
+              "question": "在长对话听力中，以下哪个词语最可能提示重要信息？",
+              "options": [
+                "A. maybe",
+                "B. however",
+                "C. sometimes",
+                "D. usually"
+              ],
+              "answer": 1,
+              "explanation": "转折词如however、but等通常引出与前面不同的观点或重要信息，是听力中需要重点捕捉的信号词。"
+            },
+            {
+              "type": "single_choice",
+              "question": "长对话听力中，如果听到“first... second... third...”，这通常表示什么？",
+              "options": [
+                "A. 列举项，后面可能出题",
+                "B. 对话即将结束",
+                "C. 说话者在重复观点",
+                "D. 无关紧要的细节"
+              ],
+              "answer": 0,
+              "explanation": "列举词如first, second, third等提示信息点正在被分项列出，这些内容往往是考点或答案来源，需要重点记录。"
+            },
+            {
+              "type": "true_false",
+              "question": "长对话听力中，只要听到选项中的原词出现，就可以直接选择该选项。",
+              "answer": false,
+              "explanation": "这是“听到即选”的常见误区。原词复现可能是干扰项，正确答案往往需要理解上下文或经过同义替换，不能仅凭原词出现就选择。"
+            },
+            {
+              "type": "true_false",
+              "question": "听前预测可以帮助考生在听力过程中更快地定位关键信息。",
+              "answer": true,
+              "explanation": "听前预测可以激活背景知识，使考生在听的过程中更有针对性，从而快速捕捉与预测相关的信息，提高答题效率。"
+            },
+            {
+              "type": "true_false",
+              "question": "在长对话中，对话开头通常包含主题句，因此开头部分非常重要。",
+              "answer": true,
+              "explanation": "长对话的开头往往直接点明话题或场景，是理解全文的关键，也是常见考点所在。"
+            },
+            {
+              "type": "true_false",
+              "question": "长对话听力中，笔记应该记录每一个单词，以确保不遗漏信息。",
+              "answer": false,
+              "explanation": "长对话信息量大，记录每一个单词不现实且会分散注意力。应该记录关键词、数字、转折词后的内容等核心信息。"
+            },
+            {
+              "type": "true_false",
+              "question": "“张冠李戴”是指将一个人的观点或行动错误地归到另一个人身上，这是一种常见的干扰项。",
+              "answer": true,
+              "explanation": "在长对话中，不同说话者可能有不同观点，干扰项常将A的观点说成B的观点，考生需要仔细分辨谁说了什么。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "长对话听力中，听前利用___和___进行话题、场景和问题类型的预测。",
+              "answer": "题目选项, 题干",
+              "explanation": "听前预测是长对话听力技巧的重要步骤，通过浏览题目选项和题干，可以推测对话可能涉及的话题和问题类型，从而做好心理准备。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "在长对话中，注意力分配应遵循___原则，重点捕捉关键信息。",
+              "answer": "关键信息优先",
+              "explanation": "关键信息优先原则要求考生将注意力集中在对话开头、转折词、问答环节和列举项等高信息密度部分，而不是平均分配注意力。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "常见的干扰项类型包括“听到即选”、“张冠李戴”和“___”。",
+              "answer": "偷换概念",
+              "explanation": "干扰项中的“偷换概念”是指使用同义替换但含义不同，或改变原文的限定词，使选项看似正确实则错误。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "长对话听力中，记录笔记时应重点记录___、数字、转折词后的内容等。",
+              "answer": "关键词",
+              "explanation": "笔记应以关键词为主，如人名、地点、时间、数字、列举项和转折词后的信息，这些往往是考点所在。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "长对话听力中，问答环节的___通常直接包含答案信息。",
+              "answer": "回答",
+              "explanation": "在问答环节中，提问者的问题往往引出关键话题，而回答者的内容则常常直接提供答案或重要细节。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "综合应用题：请根据以下长对话听力技巧，分析一个完整的听力过程。假设你即将听到一段关于“图书馆开放时间调整”的长对话，题目选项如下：\n1. A. 延长开放时间 B. 缩短开放时间 C. 保持原状 D. 关闭部分区域\n2. A. 因为预算减少 B. 因为学生需求 C. 因为节假日 D. 因为装修\n请写出听前、听中、听后的具体策略步骤，并预测可能的答案。",
+              "answer": "参考答案：\n听前：浏览题目，预测话题为“图书馆开放时间调整”。第一题问调整方向，第二题问原因。预测对话可能涉及工作人员讨论调整方案及理由。\n听中：注意对话开头——可能直接说明调整决定；注意转折词（如but）——可能引出反对意见或例外情况；注意问答环节——可能有人提问原因；注意列举词（如first, because）——可能列出多条理由。重点记录“延长”、“缩短”、“预算”、“需求”等关键词。\n听后：结合笔记和短期记忆，排除干扰项。例如，如果听到“due to budget cuts”，则第二题选A；如果听到“extend hours”，则第一题选A。注意不要被原词复现误导，如听到“students”但实际原因并非学生需求。\n预测答案：第一题可能选A（延长开放时间），第二题可能选A（因为预算减少）或B（因为学生需求），具体需根据实际对话判断。",
+              "explanation": "本题综合考查长对话听力技巧的完整流程。听前预测帮助聚焦话题，听中捕捉关键信号词，听后整合信息并排除干扰。实际考试中需要灵活运用这些策略。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "综合应用题：在长对话听力中，你听到以下内容：\n男士：I was planning to go to the library, but then I realized it closes early on weekends.\n女士：Really? I thought it was open until 10 p.m. every day.\n男士：No, on Saturdays it closes at 6 p.m., and on Sundays it's closed entirely.\n女士：That's inconvenient. I need to return a book tomorrow.\n男士：You'd better go today then. It's Friday, so it's open until 10 p.m.\n问题：根据对话，图书馆在周六的开放时间是什么？请写出你的推理过程，并指出你在听力中使用了哪些技巧。",
+              "answer": "参考答案：\n周六开放时间：下午6点关门（即开放至6 p.m.）。\n推理过程：\n1. 听前：预测话题为图书馆开放时间，注意捕捉具体日期和时间。\n2. 听中：男士第一句提到“closes early on weekends”，随后具体说明“on Saturdays it closes at 6 p.m.”，这是关键信息。同时注意转折词“but”引出重要信息。\n3. 听后：结合笔记，确认周六关门时间为6 p.m.，排除干扰项（如周日关闭、周五10 p.m.等）。\n使用的技巧：预测话题、捕捉转折词、记录具体时间数字、区分不同日期的信息。",
+              "explanation": "本题通过具体对话考查学生对长对话听力技巧的实际应用。考生需要从对话中提取关键细节，并说明如何运用预测、信号词识别和信息筛选等策略。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "综合应用题：假设以下是一道长对话听力题目的选项：\nQ: What does the woman suggest the man do?\nA. Take a break from work.\nB. Go to the gym with her.\nC. Finish the report first.\nD. Talk to the manager.\n对话中，女士说：“I know you're busy with the report, but you look exhausted. Why don't you go for a walk or something? I'm heading to the gym, but you can join me later if you finish.”\n请分析：正确答案是哪个？并说明为什么其他选项是干扰项，以及你在听力中如何排除它们。",
+              "answer": "参考答案：\n正确答案是C（Finish the report first）。\n分析：\n- 女士说“I know you're busy with the report”，表明她知道男士在忙报告；接着建议“go for a walk or something”，但随后又说“you can join me later if you finish”，暗示男士应该先完成报告。因此，女士的核心建议是优先完成报告。\n排除干扰项：\n- A（Take a break from work）：女士确实提到了休息（go for a walk），但这是次要建议，且后面用“but”和“if you finish”限定了条件，因此不是最终建议。\n- B（Go to the gym with her）：女士说“I'm heading to the gym”，但明确说“you can join me later if you finish”，所以不是立即一起去。\n- D（Talk to the manager）：对话中未提及。\n使用的技巧：注意转折词“but”和条件词“if”；区分主要建议和次要建议；排除“听到即选”（如听到gym就选B）的干扰。",
+              "explanation": "本题考查学生对长对话中建议类问题的理解，需要区分说话者的核心意图和次要信息，同时识别常见干扰项类型。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "综合应用题：请设计一段简短的长对话（约4-6句），主题为“讨论周末计划”，并围绕该对话编写一道单选题和一道判断题。要求：对话中必须包含至少一个转折词和一个列举项。然后，写出你设计的对话和题目，并说明你的设计如何体现长对话听力技巧。",
+              "answer": "参考答案：\n对话：\nW: What are your plans for the weekend?\nM: I was thinking of going hiking, but the weather forecast says it will rain.\nW: That's too bad. How about visiting the museum instead? It has a new exhibition.\nM: That sounds good, but first I need to finish my homework. Second, I have to call my mom. So maybe I can go on Sunday.\nW: Okay, let me know.\n\n单选题：\nWhat is the man's first priority this weekend?\nA. Going hiking\nB. Visiting the museum\nC. Finishing his homework\nD. Calling his mom\n正确答案：C\n\n判断题：\nThe man decides to go hiking despite the rain.\n答案：false\n\n设计说明：\n- 对话中包含转折词“but”（两次），分别引出天气不好和需要先做作业的信息，体现了转折词后常出考点。\n- 包含列举词“first”和“second”，提示了优先级信息，用于设计单选题。\n- 判断题考查学生对细节的理解，干扰项来自对话开头（hiking），但实际已被否定。\n- 本题组训练学生捕捉转折词、列举词以及区分计划与实际行动的能力。",
+              "explanation": "本题要求学生综合运用长对话听力技巧进行创作，体现了对知识点的深度理解和应用能力。设计时需确保对话包含关键信号词，并围绕这些词设计题目。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "综合应用题：在长对话听力中，考生经常因为“偷换概念”而失分。请举例说明什么是“偷换概念”，并给出一个具体的对话场景和对应的干扰选项，最后写出如何避免被此类干扰项误导。",
+              "answer": "参考答案：\n偷换概念：指选项中使用与原文相似但含义不同的词语或表达，误导考生。\n\n对话场景：\nM: The new policy requires all students to attend at least 80% of lectures.\nW: Yes, otherwise they won't be allowed to take the final exam.\n\n干扰选项：\nA. Students must attend all lectures.\nB. Students must attend 80% of lectures.\nC. Students who miss 20% of lectures can still take the exam.\nD. The policy applies to teachers.\n\n分析：\n- 正确选项应为B（attend 80% of lectures）。\n- 干扰项A偷换概念：将“至少80%”偷换成“全部”，虽然意思接近但范围不同。\n- 干扰项C偷换概念：将“不允许参加考试”偷换成“仍然可以参加”，含义相反。\n- 干扰项D偷换概念：将“学生”偷换成“教师”。\n\n避免方法：\n1. 听清数字和限定词（如at least, only, except等）。\n2. 注意选项中的绝对化词语（如all, never, always），通常与原文不符。\n3. 对比选项与原文的细节差异，不要被同义替换迷惑。\n4. 结合上下文理解，不要仅凭个别词语匹配。",
+              "explanation": "本题通过对“偷换概念”的实例分析，帮助学生识别这一常见干扰类型，并掌握应对策略，提升答题准确率。"
+            }
+          ]
+        },
+        {
+          "id": "ch02_03",
+          "title": "听力篇章理解技巧",
+          "explanation": "## 概念理解\n听力篇章理解技巧是指在四级英语听力考试中，针对长对话、短文或讲座等较长语篇，通过有效的策略和方法，快速把握主旨大意、关键细节、逻辑关系及说话者态度，从而准确回答问题的能力。它不同于短对话的即时反应，更强调对整体语篇结构的理解和信息的整合能力。\n\n## 原理剖析\n听力篇章通常遵循“总-分-总”或“问题-分析-结论”等常见结构。原理上，听者需要利用“自上而下”的认知加工模式：先通过预读选项预测话题和问题方向，再在听音过程中主动识别信号词（如转折、因果、举例、总结等）来定位关键信息。同时，短时记忆容量有限，必须学会“抓大放小”——优先记录主题句、重复词、数字、专有名词等核心元素，避免因纠结生词而遗漏后续内容。此外，篇章的连贯性依赖逻辑连接词，理解这些词能帮助预判下文走向。\n\n## 实例演示\n例如，听到开头句：“Today, we’re going to discuss the impact of social media on mental health.” 可立即判断主旨是社交媒体对心理健康的影响。随后听到：“First, let’s look at the positive aspects... However, studies show that excessive use leads to anxiety.” 通过“First”和“However”两个信号词，可知先讲正面后讲负面，问题可能围绕负面影响出题。若选项中有“increased anxiety”，即可快速匹配。\n\n## 应用场景\n本技巧适用于四级听力中的Section B（长对话）和Section C（短文/讲座）。在考试中，每篇听力播放前有约45秒的读题时间，考生应利用这段时间浏览选项，划出关键词并预测问题；播放时，边听边在选项旁做简单标记（如对号、叉号、箭头）；听完后，优先选择与原文信号词匹配的选项，避免主观臆断。",
+          "illustration_hint": "大脑处理篇章信息的流程图：预测→定位→整合",
+          "mind_map": "mindmap\n  听力篇章理解技巧\n    预读策略\n      浏览选项\n        划关键词\n        预测问题\n      标记信号\n        专有名词\n        数字时间\n    听音策略\n      主旨把握\n        首句/尾句\n        主题重复词\n      细节定位\n        信号词\n          转折（but, however）\n          因果（because, so）\n          举例（for example）\n          总结（in conclusion）\n        逻辑关系\n          并列\n          递进\n      记忆技巧\n        笔记符号\n        缩写简记\n    答题策略\n      排除干扰\n        无中生有\n        张冠李戴\n      验证匹配\n        同义替换\n        原文复现",
+          "common_mistakes": [
+            {
+              "mistake": "试图听懂每个单词，导致跟不上语速。",
+              "reason": "追求完美理解，忽略整体大意和关键词。",
+              "fix": "重点听主题句、信号词和重复出现的实词，对生词直接跳过。",
+              "memory_tip": "抓大放小，关键词不跑"
+            },
+            {
+              "mistake": "预读选项时只看文字，不预测问题。",
+              "reason": "缺乏主动思考，听音时无目标。",
+              "fix": "预读时用铅笔圈出选项差异点，并自问“这道题可能问什么？”",
+              "memory_tip": "预读猜题，听音不迷"
+            },
+            {
+              "mistake": "听到与选项完全一样的词就立刻选，忽视同义替换。",
+              "reason": "依赖原词匹配，缺乏理解能力。",
+              "fix": "训练同义替换意识，如“increase”对应“rise”，“problem”对应“issue”。",
+              "memory_tip": "原词是坑，替换才真"
+            },
+            {
+              "mistake": "纠结上一题答案，错过下一题内容。",
+              "reason": "注意力分配不当，无法及时切换。",
+              "fix": "每道题听完立即凭第一印象选，标记不确定的题，最后再集中推理。",
+              "memory_tip": "一题一清，不恋旧题"
+            }
+          ],
+          "keywords": [
+            "主旨大意",
+            "信号词",
+            "预读选项",
+            "同义替换",
+            "逻辑连接"
+          ],
+          "questions": [
+            {
+              "type": "single_choice",
+              "question": "听力篇章理解技巧中，最核心的认知加工模式是？",
+              "options": [
+                "A. 自下而上加工",
+                "B. 自上而下加工",
+                "C. 平行加工",
+                "D. 交互式加工"
+              ],
+              "answer": 1,
+              "explanation": "篇章理解强调利用预读选项预测话题和问题方向，这是典型的自上而下加工模式。"
+            },
+            {
+              "type": "single_choice",
+              "question": "在听力篇章中，以下哪类信号词最能帮助定位关键信息？",
+              "options": [
+                "A. 并列词（and, also）",
+                "B. 转折词（but, however）",
+                "C. 语气词（well, oh）",
+                "D. 重复词（again, repeat）"
+              ],
+              "answer": 1,
+              "explanation": "转折词通常引出与前面相反或重要的新信息，是定位关键细节和态度的核心信号词。"
+            },
+            {
+              "type": "single_choice",
+              "question": "听力篇章中，短时记忆容量有限，应优先记录哪类信息？",
+              "options": [
+                "A. 每一个形容词",
+                "B. 主题句和重复词",
+                "C. 所有生词拼写",
+                "D. 说话人的每句口头禅"
+              ],
+              "answer": 1,
+              "explanation": "主题句概括主旨，重复词强调重点，两者是高效抓大放小的核心元素。"
+            },
+            {
+              "type": "single_choice",
+              "question": "听力篇章常见的结构模式不包括以下哪一项？",
+              "options": [
+                "A. 总-分-总",
+                "B. 问题-分析-结论",
+                "C. 倒叙-插叙-顺叙",
+                "D. 列举-对比-总结"
+              ],
+              "answer": 2,
+              "explanation": "倒叙-插叙-顺叙是文学叙事手法，并非听力篇章的典型结构模式。"
+            },
+            {
+              "type": "single_choice",
+              "question": "听到开头句“Today, we’re going to discuss the impact of social media on mental health.”，最合理的预判是？",
+              "options": [
+                "A. 接下来会介绍社交媒体平台的功能",
+                "B. 接下来会讨论社交媒体对心理健康的影响",
+                "C. 接下来会讲述说话人个人的社交媒体使用经历",
+                "D. 接下来会对比不同社交媒体的优缺点"
+              ],
+              "answer": 1,
+              "explanation": "开头句明确点出主旨为社交媒体对心理健康的影响，预判应紧扣该话题。"
+            },
+            {
+              "type": "single_choice",
+              "question": "在听力篇章中，“For example”这类信号词通常引导什么信息？",
+              "options": [
+                "A. 总结性观点",
+                "B. 转折对比",
+                "C. 具体实例",
+                "D. 因果推理"
+              ],
+              "answer": 2,
+              "explanation": "For example是典型的举例信号词，后面紧跟具体实例来支撑前面的观点。"
+            },
+            {
+              "type": "single_choice",
+              "question": "听力篇章中，如果听到“However, recent studies show a different result.”，这表示接下来内容将？",
+              "options": [
+                "A. 支持前文观点",
+                "B. 否定或修正前文观点",
+                "C. 重复前文观点",
+                "D. 总结全文"
+              ],
+              "answer": 1,
+              "explanation": "However表示转折，后文通常引出与前文相反或不同的新发现。"
+            },
+            {
+              "type": "single_choice",
+              "question": "以下哪种策略最有助于在听篇章时避免因生词而遗漏后续内容？",
+              "options": [
+                "A. 暂停播放查词典",
+                "B. 忽略生词，继续关注整体逻辑",
+                "C. 反复默念生词发音",
+                "D. 立即在草稿纸上抄写生词"
+              ],
+              "answer": 1,
+              "explanation": "抓大放小原则：忽略不影响整体理解的生词，保持对语篇逻辑的跟踪。"
+            },
+            {
+              "type": "single_choice",
+              "question": "听力篇章中，数字信息（如年份、数量）通常出现在什么位置？",
+              "options": [
+                "A. 只在开头",
+                "B. 只在结尾",
+                "C. 分布在举例、对比、因果等关键处",
+                "D. 随机出现，无规律"
+              ],
+              "answer": 2,
+              "explanation": "数字常作为具体论据出现在举例、对比或因果推理中，是细节题的常见考点。"
+            },
+            {
+              "type": "single_choice",
+              "question": "关于听力篇章技巧，以下说法正确的是？",
+              "options": [
+                "A. 只需要听懂每个单词即可",
+                "B. 预读选项是浪费时间",
+                "C. 主动识别信号词有助于定位答案",
+                "D. 短时记忆可以记住所有细节"
+              ],
+              "answer": 2,
+              "explanation": "主动识别信号词能快速抓住逻辑脉络和关键信息，是高效解题的核心技巧。"
+            },
+            {
+              "type": "true_false",
+              "question": "听力篇章中，只要听懂每一个单词就能保证回答正确。",
+              "answer": false,
+              "explanation": "篇章理解强调整体结构和信息整合，即使听懂每个单词，若抓不住逻辑关系和主旨仍可能答错。"
+            },
+            {
+              "type": "true_false",
+              "question": "预读选项可以帮助预测听力篇章的话题和问题方向。",
+              "answer": true,
+              "explanation": "预读选项是自上而下加工的重要步骤，能激活背景知识，提升听音时的目的性。"
+            },
+            {
+              "type": "true_false",
+              "question": "在听力篇章中，遇到生词应立即停下来思考其含义。",
+              "answer": false,
+              "explanation": "这样做会错过后续内容，违背抓大放小原则，应忽略生词继续听。"
+            },
+            {
+              "type": "true_false",
+              "question": "信号词“because”通常引出一个结果。",
+              "answer": false,
+              "explanation": "because引导的是原因，而非结果。结果通常由so、therefore等词引出。"
+            },
+            {
+              "type": "true_false",
+              "question": "听力篇章的结尾部分常常包含总结或结论性信息。",
+              "answer": true,
+              "explanation": "篇章常采用总-分-总结构，结尾会对前面内容进行总结或提出结论。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "听力篇章理解中，利用预读选项预测话题和问题方向，属于___认知加工模式。",
+              "answer": "自上而下",
+              "explanation": "自上而下加工强调利用已有知识和预期来理解输入信息。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "在听力篇章中，像“but”、“however”这类词被称为___词。",
+              "answer": "转折信号",
+              "explanation": "转折信号词提示前后内容相反或出现新重点，是定位关键信息的重要线索。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "听篇章时，应优先记录主题句、重复词、数字和___等核心元素。",
+              "answer": "专有名词",
+              "explanation": "专有名词（人名、地名、机构名等）常是细节题的考点，且易于识别和记录。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "你听到一段听力篇章的开头：“First, let’s look at the positive effects. Social media helps people stay connected with friends and family. However, there is a downside. Studies show that excessive use can lead to anxiety and depression. In conclusion, it’s important to find a balance.” 请回答：\n（1）该篇章的主旨是什么？\n（2）文中提到了哪两方面的影响？\n（3）最后的结论是什么？",
+              "answer": "（1）社交媒体对心理健康的影响。\n（2）正面影响（帮助保持联系）和负面影响（导致焦虑和抑郁）。\n（3）重要的是找到平衡。",
+              "explanation": "（1）开头句直接点明讨论社交媒体对心理健康的影响。\n（2）通过“First...positive effects”和“However...downside”两个信号词引出正反两方面。\n（3）结尾句“In conclusion”明确给出平衡的建议。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "某听力篇章中，你听到以下内容：“The problem of plastic pollution is getting worse. One reason is that many products are designed for single use. Another reason is that recycling rates remain low. Therefore, governments are now considering bans on certain plastics. For example, the European Union has banned single-use plastic straws.” 请回答：\n（1）该篇章的结构属于哪种常见模式？\n（2）请列出文中提到的两个原因。\n（3）文中举例说明了什么？",
+              "answer": "（1）问题-分析-结论（或原因-结果-举例）模式。\n（2）原因一：许多产品为一次性使用设计；原因二：回收率低。\n（3）举例说明政府考虑禁止某些塑料的具体行动（欧盟禁止一次性塑料吸管）。",
+              "explanation": "（1）先提出塑料污染问题，再分析原因，最后给出政府应对措施并举例，符合问题-分析-结论结构。\n（2）由“One reason is...”和“Another reason is...”明确引出两个原因。\n（3）“For example”引导的实例具体说明了政府禁令。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch03",
+      "title": "阅读理解",
+      "topics": [
+        {
+          "id": "ch03_01",
+          "title": "仔细阅读答题技巧",
+          "explanation": "## 概念理解\n仔细阅读是四级英语阅读理解的核心题型，要求考生在15-20分钟内精读一篇约350-400词的短文，并完成5道选择题。其核心在于“精准定位+理解细节”，而非泛读或猜词。答题技巧包括：先读题干（不读选项），划出关键词（如人名、时间、数字、大写专有名词、形容词最高级等）；再回原文定位，找到对应句；最后对比选项，排除干扰项（如偷换概念、范围扩大/缩小、无中生有等）。\n\n## 原理剖析\n仔细阅读的考查本质是“信息匹配”与“逻辑推理”。命题者通常遵循“题文同序”原则（即题目顺序与文章段落顺序一致），因此考生可逐题按顺序定位。此外，正确选项往往是原文句子的同义替换（同义词、词性转换、句式改写），而错误选项常利用“原词复现”制造陷阱（即选项中出现与原文相同的词，但意思或逻辑不符）。理解这一原理后，答题时应优先寻找同义替换，而非简单匹配原词。\n\n## 实例演示\n假设文章第一段：\"Many students find that studying in a group helps them understand complex concepts more quickly.\" 题干：\"According to the passage, what is the benefit of group study?\" 选项：A) It makes students feel less lonely. B) It speeds up the comprehension of difficult ideas. C) It is more fun than studying alone. D) It reduces the amount of homework. 正确选项为B，因为\"speeds up\"对应\"more quickly\"，\"comprehension of difficult ideas\"对应\"understand complex concepts\"，这是典型的同义替换。而A、C、D均为无中生有。\n\n## 应用场景\n此技巧适用于四级仔细阅读所有题目，尤其适合细节题、推理题和主旨题。在考试中，建议先花1-2分钟通读题干（划关键词），再逐段阅读文章，每读一段即解决对应题目。遇到生词时，可通过上下文逻辑（转折、因果、举例）推测含义，避免纠结。最后用1-2分钟检查答案是否与原文逻辑一致。",
+          "illustration_hint": "流程图：题干关键词→原文定位→同义替换→排除干扰",
+          "mind_map": "mindmap\n  四级仔细阅读答题技巧\n    核心原则\n      先读题干\n      题文同序\n      精准定位\n    关键词类型\n      大写专有名词\n      数字时间\n      形容词最高级\n      核心动词\n    解题步骤\n      通读题干划词\n      逐段阅读定位\n      对比选项找替换\n      排除干扰项\n    干扰项特征\n      原词复现\n      偷换概念\n      范围扩大/缩小\n      无中生有\n    正确选项特征\n      同义替换\n      逻辑一致\n      细节对应",
+          "common_mistakes": [
+            {
+              "mistake": "读题时连选项一起读，浪费时间且易被误导",
+              "reason": "选项信息量大，先入为主会干扰原文理解",
+              "fix": "只读题干，划出关键词，再回原文定位",
+              "memory_tip": "只看题干，不看选项"
+            },
+            {
+              "mistake": "看到选项中有与原文相同的词就选，忽视逻辑",
+              "reason": "干扰项常利用原词复现制造假象",
+              "fix": "优先找同义替换，确认逻辑一致再选",
+              "memory_tip": "原词未必对，替换才靠谱"
+            },
+            {
+              "mistake": "不按题目顺序定位，跳读或倒读",
+              "reason": "四级仔细阅读基本遵循题文同序，乱序会浪费时间",
+              "fix": "按题目顺序逐题定位，每段对应一题",
+              "memory_tip": "题文同序，逐段对应"
+            },
+            {
+              "mistake": "纠结生词，导致时间不够",
+              "reason": "生词不一定是解题关键，过度纠结影响效率",
+              "fix": "通过上下文逻辑（转折词、因果词）推测大意，跳过非关键生词",
+              "memory_tip": "生词靠上下文，跳过不纠结"
+            }
+          ],
+          "keywords": [
+            "仔细阅读",
+            "答题技巧",
+            "同义替换",
+            "题文同序",
+            "关键词定位"
+          ],
+          "questions": [
+            {
+              "type": "single_choice",
+              "question": "在仔细阅读中，第一步应该做什么？",
+              "options": [
+                "A. 直接阅读全文",
+                "B. 先读题干，划出关键词",
+                "C. 先读选项，预测答案",
+                "D. 先看文章标题和首段"
+              ],
+              "answer": 1,
+              "explanation": "解析：根据答题技巧，第一步是先读题干（不读选项），划出关键词（如人名、时间、数字等），再回原文定位。选项B正确。"
+            },
+            {
+              "type": "single_choice",
+              "question": "仔细阅读中，正确选项通常具有什么特征？",
+              "options": [
+                "A. 与原文用词完全相同",
+                "B. 是原文句子的同义替换",
+                "C. 包含原文中所有的关键词",
+                "D. 比原文句子更复杂"
+              ],
+              "answer": 1,
+              "explanation": "解析：正确选项往往是原文句子的同义替换（同义词、词性转换、句式改写），而非简单匹配原词。选项B正确。"
+            },
+            {
+              "type": "single_choice",
+              "question": "命题者常利用什么制造陷阱？",
+              "options": [
+                "A. 同义替换",
+                "B. 原词复现",
+                "C. 逻辑推理",
+                "D. 段落大意"
+              ],
+              "answer": 1,
+              "explanation": "解析：错误选项常利用“原词复现”制造陷阱，即选项中出现与原文相同的词，但意思或逻辑不符。选项B正确。"
+            },
+            {
+              "type": "single_choice",
+              "question": "“题文同序”原则指的是什么？",
+              "options": [
+                "A. 题目顺序与文章段落顺序一致",
+                "B. 题目顺序与文章段落顺序相反",
+                "C. 题目顺序随机排列",
+                "D. 题目顺序与文章长度有关"
+              ],
+              "answer": 0,
+              "explanation": "解析：命题者通常遵循“题文同序”原则，即题目顺序与文章段落顺序一致，考生可逐题按顺序定位。选项A正确。"
+            },
+            {
+              "type": "single_choice",
+              "question": "在仔细阅读中，以下哪个不是常见的干扰项类型？",
+              "options": [
+                "A. 偷换概念",
+                "B. 范围扩大或缩小",
+                "C. 无中生有",
+                "D. 同义替换"
+              ],
+              "answer": 3,
+              "explanation": "解析：常见的干扰项类型包括偷换概念、范围扩大/缩小、无中生有等，而同义替换是正确选项的特征。选项D正确。"
+            },
+            {
+              "type": "single_choice",
+              "question": "文章第一句：\"Many students find that studying in a group helps them understand complex concepts more quickly.\" 题干：\"According to the sentence, what is the benefit of group study?\" 正确选项是？",
+              "options": [
+                "A. It helps students finish homework faster.",
+                "B. It helps students understand complex concepts more quickly.",
+                "C. It helps students make more friends.",
+                "D. It helps students get better grades."
+              ],
+              "answer": 1,
+              "explanation": "解析：原文直接指出“studying in a group helps them understand complex concepts more quickly”，选项B是原文的同义复现，因此正确。"
+            },
+            {
+              "type": "single_choice",
+              "question": "一篇文章第三段提到：\"The experiment was conducted in 2020.\" 题干问时间，正确答案应是什么？",
+              "options": [
+                "A. 2019",
+                "B. 2020",
+                "C. 2021",
+                "D. 2022"
+              ],
+              "answer": 1,
+              "explanation": "解析：原文明确提到“in 2020”，因此正确选项为B。"
+            },
+            {
+              "type": "single_choice",
+              "question": "仔细阅读中，如果题干中出现人名“John”，定位时应优先寻找什么？",
+              "options": [
+                "A. 文章首段",
+                "B. 包含John的句子",
+                "C. 文章结尾",
+                "D. 包含数字的句子"
+              ],
+              "answer": 1,
+              "explanation": "解析：人名是关键词，定位时应优先寻找包含John的句子，然后精读该句及其上下文。选项B正确。"
+            },
+            {
+              "type": "single_choice",
+              "question": "以下哪个步骤是仔细阅读答题技巧中正确的？",
+              "options": [
+                "A. 先读选项，再读文章",
+                "B. 先读题干，划关键词，再回原文定位",
+                "C. 先读全文，再读题目",
+                "D. 先读文章结尾，再读题目"
+              ],
+              "answer": 1,
+              "explanation": "解析：正确的步骤是先读题干，划出关键词，再回原文定位，对比选项。选项B正确。"
+            },
+            {
+              "type": "single_choice",
+              "question": "在对比选项时，应优先选择哪种选项？",
+              "options": [
+                "A. 包含最多原词的选项",
+                "B. 与原文句子结构完全一致的选项",
+                "C. 与原文意思相同的同义替换选项",
+                "D. 看起来最复杂的选项"
+              ],
+              "answer": 2,
+              "explanation": "解析：正确选项往往是同义替换，而非简单匹配原词或结构。选项C正确。"
+            },
+            {
+              "type": "true_false",
+              "question": "仔细阅读中，先读选项可以帮助预测答案，因此应该先读选项。",
+              "answer": false,
+              "explanation": "解析：根据答题技巧，应先读题干（不读选项），划出关键词，再回原文定位。先读选项可能导致先入为主的错误判断，因此该说法错误。"
+            },
+            {
+              "type": "true_false",
+              "question": "“题文同序”原则意味着第一题通常对应文章第一段。",
+              "answer": true,
+              "explanation": "解析：命题者通常遵循“题文同序”原则，即题目顺序与文章段落顺序一致，因此第一题通常对应文章第一段。该说法正确。"
+            },
+            {
+              "type": "true_false",
+              "question": "正确选项一定是原文句子的完全照搬。",
+              "answer": false,
+              "explanation": "解析：正确选项往往是原文句子的同义替换，而非完全照搬。原词复现常是陷阱。该说法错误。"
+            },
+            {
+              "type": "true_false",
+              "question": "仔细阅读中，定位到关键词所在的句子后，只需读那一句话即可确定答案。",
+              "answer": false,
+              "explanation": "解析：虽然定位到关键词所在句子很重要，但有时需要结合上下文理解逻辑，不能只读一句话。该说法过于绝对，错误。"
+            },
+            {
+              "type": "true_false",
+              "question": "干扰项中的“偷换概念”是指选项使用了与原文不同的词汇但意思相同。",
+              "answer": false,
+              "explanation": "解析：“偷换概念”是指选项使用了与原文相似的词汇，但改变了其实际含义或逻辑关系，导致意思不同。该说法错误。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "仔细阅读的核心是“精准定位+理解___”。",
+              "answer": "细节",
+              "explanation": "解析：根据知识点，仔细阅读的核心在于“精准定位+理解细节”，因此空位应填“细节”。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "命题者通常遵循___原则，即题目顺序与文章段落顺序一致。",
+              "answer": "题文同序",
+              "explanation": "解析：根据知识点，命题者通常遵循“题文同序”原则，因此空位应填“题文同序”。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "错误选项常利用___制造陷阱，即选项中出现与原文相同的词，但意思或逻辑不符。",
+              "answer": "原词复现",
+              "explanation": "解析：根据知识点，错误选项常利用“原词复现”制造陷阱，因此空位应填“原词复现”。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "在对比选项时，应优先寻找___替换，而非简单匹配原词。",
+              "answer": "同义",
+              "explanation": "解析：根据知识点，正确选项往往是同义替换，因此空位应填“同义”。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "仔细阅读中，划出的关键词包括人名、时间、数字、大写专有名词以及形容词___等。",
+              "answer": "最高级",
+              "explanation": "解析：根据知识点，关键词包括形容词最高级等，因此空位应填“最高级”。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "阅读以下短文段落，并回答问题：\n\"The study, published in 2021, revealed that students who participated in peer tutoring sessions scored 15% higher on average than those who studied alone. However, the effect was most significant for students in STEM fields. Dr. Smith, the lead author, emphasized that the key factor was consistent interaction over a period of at least six weeks.\"\n\n题目：根据短文，以下说法正确的有哪些？请选出所有正确选项并说明理由。\nA. The study was published in 2020.\nB. Peer tutoring improved scores by 15% for all students.\nC. The effect of peer tutoring was greatest for STEM students.\nD. Dr. Smith said interaction for at least six weeks was crucial.",
+              "answer": "正确选项：C和D。理由：C选项对应原文“the effect was most significant for students in STEM fields”，是“most significant”的同义替换；D选项对应原文“the key factor was consistent interaction over a period of at least six weeks”，是“crucial”的同义替换。A选项错误，因为原文是“2021”而非“2020”；B选项错误，因为原文是“15% higher on average”而非“for all students”，属于范围扩大。",
+              "explanation": "解题思路：首先，阅读题干，明确需要判断每个选项的正误。然后，根据关键词（如“2021”、“15%”、“STEM”、“six weeks”）回原文定位。逐句对比：A选项时间错误；B选项“all students”扩大了范围；C选项“greatest”对应“most significant”；D选项“crucial”对应“key factor”。因此，正确选项为C和D。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "假设文章第一段：\"Many students find that studying in a group helps them understand complex concepts more quickly. However, group study also requires effective communication and time management to avoid distractions.\"\n题干：\"What are the benefits and challenges of group study according to the passage?\"\n请写出完整的答案，并说明解题步骤。",
+              "answer": "参考答案：Benefits: Group study helps students understand complex concepts more quickly. Challenges: It requires effective communication and time management to avoid distractions.\n解题步骤：1. 读题干，划出关键词“benefits”和“challenges”。2. 回原文定位，第一句提到“helps them understand complex concepts more quickly”，这是benefit。3. 第二句“However”引出挑战，提到“requires effective communication and time management to avoid distractions”。4. 组织答案，分别列出benefits和challenges。",
+              "explanation": "解题思路：本题要求找出group study的benefits和challenges。通过关键词定位，benefit在首句，challenge在第二句。注意转折词“However”提示后面是挑战。答案需简洁明了，直接引用原文或进行同义替换。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "文章第二段：\"The experiment involved 200 participants, half of whom were assigned to the treatment group and the other half to the control group. The treatment group received a new teaching method, while the control group followed the traditional curriculum. After three months, the treatment group showed a 20% improvement in test scores.\"\n题干：\"What was the result of the experiment?\"\n请写出答案，并说明如何排除干扰项。",
+              "answer": "参考答案：The treatment group showed a 20% improvement in test scores after three months.\n排除干扰项方法：假设选项A说“All participants improved by 20%”，这是范围扩大（原文只说treatment group）；选项B说“The control group improved by 20%”，这是偷换对象；选项C说“The treatment group improved by 30%”，这是数字错误。正确选项应准确反映原文信息。",
+              "explanation": "解题思路：首先定位到结果描述句“the treatment group showed a 20% improvement in test scores”。然后，对比选项时注意干扰项常见的陷阱：范围扩大（all）、偷换对象（control group）、数字错误（30%）。只有与原文完全匹配或同义替换的选项才是正确的。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "文章第三段：\"Dr. Lee argued that the findings support the hypothesis that early intervention is critical for language development. However, other researchers caution that the sample size was too small to draw definitive conclusions.\"\n题干：\"What is the main disagreement between Dr. Lee and other researchers?\"\n请写出答案，并分析逻辑关系。",
+              "answer": "参考答案：Dr. Lee believes the findings support the hypothesis that early intervention is critical, while other researchers think the sample size is too small to draw definitive conclusions.\n逻辑分析：文中“However”表示转折，引出其他研究者的不同观点。Dr. Lee的观点是支持假设，其他研究者则质疑结论的可靠性，因为样本量小。因此，分歧在于对研究结论的接受程度。",
+              "explanation": "解题思路：首先，读题干，明确要找出“disagreement”。然后，定位到“However”前后的句子，分别提取Dr. Lee和其他研究者的观点。注意逻辑转折词“However”是解题关键。最后，用自己的话概括分歧点。"
+            }
+          ]
+        },
+        {
+          "id": "ch03_02",
+          "title": "快速阅读(略读与寻读)",
+          "explanation": "## 概念理解\n快速阅读是四级英语阅读理解中的核心技巧，主要包括略读（Skimming）和寻读（Scanning）两种方法。略读是指快速浏览文章，抓住主旨大意、结构框架和关键信息，而不纠结于每个单词或细节。寻读则是带着特定问题或关键词，在文中快速定位目标信息，如数字、人名、地名等。两者相辅相成：略读帮助建立整体认知，寻读则精准提取答案。\n\n## 原理剖析\n略读的原理基于人类视觉的“整体感知”能力：眼睛能快速扫描文本，大脑通过标题、首尾句、过渡词（如however, therefore）等信号词自动归纳主题。寻读则利用选择性注意，大脑会忽略无关信息，只聚焦于与目标关键词匹配的词汇或格式（如大写、数字、斜体）。在四级考试中，时间有限（约15分钟/篇），快速阅读能显著提升效率。研究表明，熟练运用略读和寻读，可将阅读时间缩短40%，同时保持80%以上的正确率。\n\n## 实例演示\n假设文章主题是“Climate Change”。略读时，先看标题、每段首句（如“Global temperatures have risen significantly.”）和结尾段，快速得出文章讲“气候变化的原因和影响”。寻读时，若问题问“What was the temperature increase in 2023?”，直接扫描数字“2023”或“temperature increase”，找到对应句子“In 2023, the average temperature rose by 1.2°C.”，即可快速作答。\n\n## 应用场景\n在四级阅读理解中，快速阅读适用于：1）段落匹配题：先略读文章段落标题或首句，再寻读题干关键词定位段落；2）仔细阅读题：先略读全文把握主旨，再寻读细节题答案；3）时间紧迫时：优先用略读抓大意，再针对问题寻读。日常学习中，也可用于快速浏览新闻、学术摘要等。",
+          "illustration_hint": "眼睛扫视文章，捕捉关键词和标题",
+          "mind_map": "mindmap\n  快速阅读\n    略读\n      目的\n        抓住主旨\n        了解结构\n      技巧\n        读标题、首尾段\n        关注过渡词\n        忽略细节词\n    寻读\n      目的\n        定位具体信息\n        匹配关键词\n      技巧\n        扫描数字、大写\n        利用题干关键词\n        略过无关内容\n    结合使用\n      先略读再寻读\n      提高效率\n    常见误区\n      逐字阅读\n      过度依赖记忆",
+          "common_mistakes": [
+            {
+              "mistake": "逐字逐句阅读全文，导致时间不够",
+              "reason": "缺乏整体策略，误以为必须理解每个单词",
+              "fix": "先略读抓主旨，再根据题目需求寻读细节",
+              "memory_tip": "先看头尾，再找关键"
+            },
+            {
+              "mistake": "寻读时盲目扫视，找不到目标信息",
+              "reason": "没有先明确关键词，或关键词选错（如用常见词）",
+              "fix": "从题干中提取唯一性关键词（数字、专有名词），并预想其形式",
+              "memory_tip": "词要独特，眼随词动"
+            },
+            {
+              "mistake": "略读后忘记文章结构，答题时回头乱翻",
+              "reason": "略读时未做标记或记忆，缺乏框架意识",
+              "fix": "略读时用笔圈出段落主题词，并记下每段大意",
+              "memory_tip": "边读边标，结构记牢"
+            }
+          ],
+          "keywords": [
+            "略读",
+            "寻读",
+            "快速阅读",
+            "主旨大意",
+            "关键词定位"
+          ],
+          "questions": [
+            {
+              "type": "single_choice",
+              "question": "快速阅读中，略读（Skimming）的主要目的是什么？",
+              "options": [
+                "A. 找到文章中所有的数字信息",
+                "B. 抓住文章的主旨大意和结构框架",
+                "C. 逐字逐句理解每个单词的意思",
+                "D. 定位某个具体的人名或地名"
+              ],
+              "answer": 1,
+              "explanation": "略读的核心是快速浏览文章，抓住主旨大意、结构框架和关键信息，而不纠结于每个单词或细节。选项A和D属于寻读的目的，选项C则与略读的快速特征不符。因此正确答案是B。"
+            },
+            {
+              "type": "single_choice",
+              "question": "寻读（Scanning）主要依赖以下哪种机制？",
+              "options": [
+                "A. 视觉的整体感知能力",
+                "B. 选择性注意，忽略无关信息",
+                "C. 逐词逐句的深度分析",
+                "D. 全文逻辑推理"
+              ],
+              "answer": 1,
+              "explanation": "寻读利用选择性注意，大脑会忽略无关信息，只聚焦于与目标关键词匹配的词汇或格式（如大写、数字、斜体）。选项A是略读的原理，选项C和D不属于快速阅读的典型方式。因此正确答案是B。"
+            },
+            {
+              "type": "single_choice",
+              "question": "在四级快速阅读中，若想了解文章的整体结构，应优先使用哪种方法？",
+              "options": [
+                "A. 寻读",
+                "B. 略读",
+                "C. 精读",
+                "D. 默读"
+              ],
+              "answer": 1,
+              "explanation": "略读适合快速建立整体认知，包括文章的结构框架和主题。寻读用于精准提取特定信息，精读和默读耗时较长，不适合快速阅读场景。因此正确答案是B。"
+            },
+            {
+              "type": "single_choice",
+              "question": "以下哪个信号词通常在略读时有助于快速把握文章转折点？",
+              "options": [
+                "A. and",
+                "B. however",
+                "C. also",
+                "D. first"
+              ],
+              "answer": 1,
+              "explanation": "信号词如however、therefore等能提示文章的逻辑转折或结论，略读时关注这些词可以快速归纳主题。and、also表示并列，first表示顺序，转折词更关键。因此正确答案是B。"
+            },
+            {
+              "type": "single_choice",
+              "question": "根据知识点，熟练运用略读和寻读可将阅读时间缩短多少？",
+              "options": [
+                "A. 20%",
+                "B. 30%",
+                "C. 40%",
+                "D. 50%"
+              ],
+              "answer": 2,
+              "explanation": "知识点明确指出：熟练运用略读和寻读，可将阅读时间缩短40%，同时保持80%以上的正确率。因此正确答案是C。"
+            },
+            {
+              "type": "true_false",
+              "question": "略读时需要仔细阅读每一个单词才能抓住主旨。",
+              "answer": false,
+              "explanation": "略读的核心是快速浏览，通过标题、首尾句和过渡词来抓住主旨，不需要纠结每个单词。因此该说法错误。"
+            },
+            {
+              "type": "true_false",
+              "question": "寻读时，大脑会主动忽略与目标关键词无关的信息。",
+              "answer": true,
+              "explanation": "寻读利用选择性注意，大脑会过滤无关信息，只聚焦于目标关键词匹配的内容（如数字、人名等）。因此该说法正确。"
+            },
+            {
+              "type": "true_false",
+              "question": "在四级考试中，每篇快速阅读的推荐时间约为15分钟。",
+              "answer": true,
+              "explanation": "知识点中提到：在四级考试中，时间有限（约15分钟/篇），快速阅读能显著提升效率。因此该说法正确。"
+            },
+            {
+              "type": "true_false",
+              "question": "略读和寻读是两种互斥的阅读方法，不能同时使用。",
+              "answer": false,
+              "explanation": "知识点指出两者相辅相成：略读帮助建立整体认知，寻读则精准提取答案。实际阅读中常结合使用，并非互斥。因此该说法错误。"
+            },
+            {
+              "type": "true_false",
+              "question": "寻读时，大写字母、数字和斜体字通常是快速定位的关键线索。",
+              "answer": true,
+              "explanation": "寻读利用选择性注意，会聚焦于与目标关键词匹配的词汇或格式，如大写、数字、斜体等。因此该说法正确。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "快速阅读主要包括略读和___两种方法。",
+              "answer": "寻读",
+              "explanation": "知识点明确指出：快速阅读主要包括略读（Skimming）和寻读（Scanning）两种方法。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "略读时，应重点关注文章的标题、每段___和结尾段。",
+              "answer": "首句",
+              "explanation": "略读时通过标题、每段首句和结尾段快速把握文章主旨和结构。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "寻读时，大脑会忽略无关信息，只聚焦于与___匹配的词汇或格式。",
+              "answer": "目标关键词",
+              "explanation": "寻读利用选择性注意，只关注与目标关键词（如特定数字、人名等）匹配的内容。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "根据知识点，熟练运用快速阅读技巧可将阅读时间缩短___%。",
+              "answer": "40",
+              "explanation": "知识点明确指出：熟练运用略读和寻读，可将阅读时间缩短40%。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "在略读时，过渡词如however和___有助于快速归纳主题。",
+              "answer": "therefore",
+              "explanation": "知识点中举例了however和therefore作为重要的过渡词，能提示逻辑转折或结论。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "假设你正在参加四级快速阅读考试，文章标题为“Climate Change”，第一段首句是“Global temperatures have risen significantly.”，最后一段首句是“In conclusion, urgent actions are needed.”。请写出略读这篇文章的步骤，并说明通过略读你能获得哪些信息。",
+              "answer": "略读步骤：1. 先看标题“Climate Change”，了解主题。2. 阅读每段首句，例如第一段首句“Global temperatures have risen significantly.”，中间段落可能涉及原因和影响，最后一段首句“In conclusion, urgent actions are needed.”。3. 关注过渡词如however、therefore等。4. 快速浏览结尾段。通过略读可获得的信息：文章主题是气候变化，内容包括气温上升的事实、可能的原因和影响，以及呼吁采取行动。",
+              "explanation": "略读的核心是抓住主旨和结构，不纠结细节。标题提供主题，首尾句概括段落大意，过渡词提示逻辑关系。本题要求展示略读的实际应用，步骤清晰、信息合理即可。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "阅读以下句子，并运用寻读方法快速找出其中所有数字信息：“In 2020, the global average temperature was 1.2°C above pre-industrial levels. By 2030, it may reach 1.5°C. Over 100 countries have set net-zero targets by 2050.” 请列出你找到的数字，并说明寻读时你关注了哪些关键词或格式。",
+              "answer": "找到的数字：2020, 1.2°C, 2030, 1.5°C, 100, 2050。寻读时关注的关键词和格式：年份（如2020、2030、2050）、温度数值（如1.2°C、1.5°C）、数量词（如100）。这些数字通常以阿拉伯数字或带单位的形式出现，易于快速定位。",
+              "explanation": "寻读的核心是选择性注意，聚焦于特定格式（数字、大写、斜体等）。本题要求展示寻读过程，列出所有数字并说明定位策略即可。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "在一篇关于“Renewable Energy”的文章中，你需要回答以下问题：1）文章主要讨论了哪三种可再生能源？2）哪种能源在2022年增长最快？请设计一个结合略读和寻读的解题方案，并说明每一步使用的方法。",
+              "answer": "解题方案：第一步：使用略读，浏览文章标题和每段首句，快速了解文章结构。例如，可能看到“solar energy”、“wind power”、“hydropower”等关键词出现在段首，从而确定三种可再生能源。第二步：使用寻读，带着关键词“2022”和“growth”或“fastest”在文中快速扫描，定位到具体句子，如“In 2022, solar energy grew the fastest, with a 25% increase.”。通过略读建立整体认知，再通过寻读精准提取答案。",
+              "explanation": "综合应用题要求结合两种方法。略读用于获取主旨和结构，寻读用于定位具体数据。方案需清晰区分步骤，并说明每种方法的用途。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "假设你在快速阅读时遇到一个生词“photosynthesis”，但根据略读原则，你不需要查字典。请解释为什么，并说明如何通过上下文推测其大致含义。",
+              "answer": "略读的原则是不纠结于每个单词，而是抓住主旨。如果“photosynthesis”出现在关于“plants”和“sunlight”的段落中，可以通过上下文推测其与植物利用阳光制造养分有关，甚至猜出是“光合作用”。即使不完全理解，也不影响对文章整体主题（如植物生长）的把握。",
+              "explanation": "略读允许跳过不熟悉的词汇，通过上下文线索（如主题词、搭配）推测含义。本题考查对略读本质的理解，即容忍模糊性，关注整体。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "请比较略读和寻读在四级快速阅读中的不同作用，并各举一个具体应用场景。",
+              "answer": "略读的作用：快速把握文章主旨和结构。应用场景：考试时先花1分钟略读全文，了解文章大意和段落分布，为后续答题做准备。寻读的作用：精准定位特定信息。应用场景：回答细节题时，带着问题中的关键词（如“2020年”、“人均收入”）快速扫描文章，找到对应句子。两者结合使用：先略读建立认知，再寻读提取答案，提高效率。",
+              "explanation": "比较题需要明确区分两者的定义和用途。略读侧重于整体，寻读侧重于局部。应用场景应贴合四级考试实际，体现互补性。"
+            }
+          ]
+        },
+        {
+          "id": "ch03_03",
+          "title": "选词填空解题方法",
+          "explanation": "## 概念理解\n选词填空是四级英语阅读理解中的一种题型，要求考生从给出的15个单词中选出10个，填入一篇约200-250词的短文中的10个空白处。每个单词只能使用一次。该题型主要考查考生对词汇、语法和上下文逻辑的综合理解能力。\n\n## 原理剖析\n解题的核心原理是“词性+语义”双重匹配。首先，根据空白处的上下文判断所需单词的词性（名词、动词、形容词、副词等），这可以通过分析句子结构、前后搭配和语法标志（如冠词、介词、情态动词等）来实现。其次，在确定词性后，进一步根据文章的逻辑关系和语义线索选择最符合上下文含义的单词。常见的逻辑关系包括并列、转折、因果、举例、解释等。此外，要注意单词的形态变化，如动词的时态、名词的单复数、形容词的比较级等，以确保填入的单词在语法上完全正确。\n\n## 实例演示\n例如，句子：\"The new policy is expected to ______ economic growth.\" 空白处前有不定式标志“to”，因此需要填入动词原形。备选词中“stimulate”（刺激）、“prevent”（阻止）、“ignore”（忽视）都符合动词原形。根据上下文“新政策”和“经济增长”的积极语义，“stimulate”是最佳选择。\n\n## 应用场景\n该技巧适用于所有英语考试的选词填空题型，包括四级、六级、考研英语等。在日常阅读中，也可以运用此方法快速理解句子结构，提升阅读速度和准确性。",
+          "illustration_hint": "流程图展示词性判断与语义匹配步骤",
+          "mind_map": "mindmap\n  (选词填空解题方法)\n    (步骤一：快速浏览全文)\n      (把握主题)\n      (了解逻辑)\n    (步骤二：分析词库)\n      (标注词性)\n      (标记词义)\n      (注意形态)\n    (步骤三：逐一填空)\n      (判断空白处词性)\n        (名词: 冠词/形容词后)\n        (动词: 情态动词/to/主语后)\n        (形容词: 名词前/系动词后)\n        (副词: 动词前后/句首)\n      (匹配语义)\n        (上下文逻辑)\n        (固定搭配)\n      (排除干扰项)\n    (步骤四：复查全文)\n      (检查语法)\n      (检查语义通顺)",
+          "common_mistakes": [
+            {
+              "mistake": "不分析词性，直接凭感觉选词",
+              "reason": "忽略句子结构，导致填入的单词语法错误",
+              "fix": "先判断空白处所需词性，再在对应词性中筛选",
+              "memory_tip": "先定词性，后选词义"
+            },
+            {
+              "mistake": "忽略单词的形态变化（如时态、单复数）",
+              "reason": "只关注词性，未考虑具体语法要求",
+              "fix": "结合上下文确定动词时态、名词单复数等形态",
+              "memory_tip": "形态要对，语法不累"
+            },
+            {
+              "mistake": "看到熟悉的单词就立即填入，不检查上下文逻辑",
+              "reason": "被单词的常见义误导，忽略语境",
+              "fix": "将选词代入全文，确保语义连贯",
+              "memory_tip": "语境优先，熟悉靠边"
+            }
+          ],
+          "keywords": [
+            "词性判断",
+            "语义匹配",
+            "上下文逻辑",
+            "语法形态",
+            "排除法"
+          ],
+          "questions": [
+            {
+              "type": "single_choice",
+              "question": "选词填空题型中，考生需要从多少个单词中选出多少个填入短文？",
+              "options": [
+                "A. 15选10",
+                "B. 10选10",
+                "C. 15选15",
+                "D. 20选10"
+              ],
+              "answer": 0,
+              "explanation": "根据知识点内容，选词填空要求从15个单词中选出10个填入短文空白处，每个单词只能使用一次，因此正确答案为A。"
+            },
+            {
+              "type": "single_choice",
+              "question": "解题的核心原理是以下哪两者的双重匹配？",
+              "options": [
+                "A. 词性+语义",
+                "B. 词形+语法",
+                "C. 语义+逻辑",
+                "D. 语法+语境"
+              ],
+              "answer": 0,
+              "explanation": "知识点明确指出，解题核心原理是“词性+语义”双重匹配。先判断空白处所需词性，再根据语义选择最合适的单词。"
+            },
+            {
+              "type": "single_choice",
+              "question": "判断空白处词性时，以下哪个语法标志通常提示需要填入动词原形？",
+              "options": [
+                "A. 冠词",
+                "B. 介词",
+                "C. 情态动词",
+                "D. 形容词"
+              ],
+              "answer": 2,
+              "explanation": "情态动词（如can, must, should等）后接动词原形。冠词后通常接名词，介词后接名词或动名词，形容词后接名词。"
+            },
+            {
+              "type": "single_choice",
+              "question": "在句子“He is interested in ______ new languages.”中，空白处前为介词“in”，应填入什么词性的单词？",
+              "options": [
+                "A. 动词原形",
+                "B. 名词或动名词",
+                "C. 形容词",
+                "D. 副词"
+              ],
+              "answer": 1,
+              "explanation": "介词后通常接名词或动名词（即动词的-ing形式），因此应填入名词或动名词，如“learning”。"
+            },
+            {
+              "type": "single_choice",
+              "question": "选词填空中，每个单词可以重复使用吗？",
+              "options": [
+                "A. 可以",
+                "B. 不可以",
+                "C. 视情况而定",
+                "D. 最多使用两次"
+              ],
+              "answer": 1,
+              "explanation": "知识点明确说明：每个单词只能使用一次，因此不可以重复使用。"
+            },
+            {
+              "type": "true_false",
+              "question": "选词填空题型只考查词汇量，不需要理解语法和上下文逻辑。",
+              "answer": false,
+              "explanation": "该题型考查的是词汇、语法和上下文逻辑的综合理解能力，并非仅考查词汇量，因此判断为错误。"
+            },
+            {
+              "type": "true_false",
+              "question": "在分析空白处词性时，冠词后面通常需要填入动词。",
+              "answer": false,
+              "explanation": "冠词（a, an, the）后面通常接名词或形容词+名词，而不是动词，因此判断为错误。"
+            },
+            {
+              "type": "true_false",
+              "question": "选词填空的短文长度通常在200-250词左右。",
+              "answer": true,
+              "explanation": "知识点明确指出，短文长度约为200-250词，因此判断为正确。"
+            },
+            {
+              "type": "true_false",
+              "question": "解题时只需要考虑空白处的词性，不需要考虑单词的形态变化（如时态、单复数）。",
+              "answer": false,
+              "explanation": "知识点强调要注意单词的形态变化，如动词时态、名词单复数、形容词比较级等，以确保语法正确，因此判断为错误。"
+            },
+            {
+              "type": "true_false",
+              "question": "常见的逻辑关系包括并列、转折、因果、举例、解释等，这些有助于选择语义合适的单词。",
+              "answer": true,
+              "explanation": "知识点明确指出，根据逻辑关系和语义线索选择单词，常见逻辑关系包括并列、转折、因果、举例、解释等，因此判断为正确。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "解题的核心原理是“______+语义”双重匹配。",
+              "answer": "词性",
+              "explanation": "知识点指出，解题核心原理是“词性+语义”双重匹配，因此空白处应填“词性”。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "在句子“She decided to ______ the offer.”中，空白处前有不定式标志“to”，应填入动词______。",
+              "answer": "原形",
+              "explanation": "不定式“to”后接动词原形，因此应填入动词原形，如“accept”。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "选词填空要求从15个单词中选出______个填入短文。",
+              "answer": "10",
+              "explanation": "知识点明确说明，从15个单词中选出10个填入短文空白处。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "在句子“The ______ of the new bridge was celebrated.”中，根据冠词“The”和介词“of”，空白处应填入一个______词。",
+              "answer": "名",
+              "explanation": "冠词“The”后常接名词，且介词“of”前也需名词，因此空白处应填入一个名词，如“completion”。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "在句子“He ran ______ than his brother.”中，根据比较级结构，空白处应填入副词的______级。",
+              "answer": "比较",
+              "explanation": "句中出现“than”，提示使用比较级，因此应填入副词的比较级形式，如“faster”。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "阅读以下短文片段，从备选词中选择正确的单词填入空白处（每个单词只能用一次）。\n\n短文：The new policy is expected to ______ economic growth. Many experts believe it will also help ______ unemployment. However, some critics ______ that the plan may have negative effects. They suggest that the government should ______ more carefully before taking action. \n\n备选词：stimulate, reduce, warn, consider, ignore, prevent, analyze, propose, delay, accept",
+              "answer": "stimulate; reduce; warn; consider",
+              "explanation": "解题思路：\n1. 第一空：前有不定式“to”，需动词原形。根据语义“新政策预计______经济增长”，选择“stimulate”（刺激）最合适。\n2. 第二空：前有“will also help to”（省略to），需动词原形。根据语义“帮助______失业”，选择“reduce”（减少）符合逻辑。\n3. 第三空：主语是“some critics”，需动词第三人称复数形式。根据语义“一些批评者______该计划可能有负面影响”，选择“warn”（警告）最恰当。\n4. 第四空：前有“should”，需动词原形。根据语义“政府应该更仔细地______再采取行动”，选择“consider”（考虑）符合语境。\n其他备选词如“ignore”（忽视）、“prevent”（阻止）、“analyze”（分析）等虽语法正确，但语义不符上下文。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "阅读以下短文片段，从备选词中选择正确的单词填入空白处（每个单词只能用一次）。\n\n短文：The ______ of the ancient city was a major discovery. Archaeologists found many ______ objects buried underground. They ______ that the city was once a center of trade. The findings provide new ______ into the region's history. \n\n备选词：excavation, valuable, believe, insights, ancient, explore, discovered, ruins, evidence, suggest",
+              "answer": "excavation; valuable; believe; insights",
+              "explanation": "解题思路：\n1. 第一空：前有冠词“The”，后接介词“of”，需名词。根据语义“这座古城的______是一个重大发现”，选择“excavation”（发掘）最合适。\n2. 第二空：前有“many”和“objects”，需形容词修饰名词“objects”。根据语义“发现了许多______物品”，选择“valuable”（有价值的）符合逻辑。\n3. 第三空：主语“They”后需动词，且为过去时。根据语义“他们______这座城市曾是贸易中心”，选择“believe”（相信）的过去式“believed”，但备选词中“believe”为原形，此处需根据上下文调整为过去时，但题目未提供过去式选项，因此直接使用“believe”在语法上也可接受（若短文为一般现在时）。为准确，建议选择“believe”并解释时态。\n4. 第四空：前有“provide new”，需名词。根据语义“提供了对该地区历史的新______”，选择“insights”（见解）最恰当。\n其他备选词如“ruins”（废墟）、“explore”（探索）等语法不符或语义不当。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "阅读以下短文片段，从备选词中选择正确的单词填入空白处（每个单词只能用一次）。\n\n短文：Many students find it difficult to ______ a balance between study and leisure. They often ______ too much time on social media. To improve, they should ______ their daily schedule and ______ time for exercise. \n\n备选词：maintain, spend, organize, set, waste, ignore, reduce, forget, plan, enjoy",
+              "answer": "maintain; spend; organize; set",
+              "explanation": "解题思路：\n1. 第一空：前有不定式“to”，需动词原形。根据语义“很难______平衡”，选择“maintain”（保持）最合适。\n2. 第二空：主语“They”后需动词原形（一般现在时）。根据语义“他们在社交媒体上______太多时间”，选择“spend”（花费）符合逻辑。\n3. 第三空：前有“should”，需动词原形。根据语义“他们应该______每日日程”，选择“organize”（安排）最恰当。\n4. 第四空：前有“and”，与“organize”并列，需动词原形。根据语义“______出时间锻炼”，选择“set”（设定）符合语境。\n其他备选词如“waste”（浪费）、“reduce”（减少）等虽语法正确，但语义不如所选词贴切。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "阅读以下短文片段，从备选词中选择正确的单词填入空白处（每个单词只能用一次）。\n\n短文：The experiment was designed to ______ the effects of sleep on memory. Participants were asked to ______ a list of words before sleeping. The results showed that sleep helps ______ information. This discovery has important ______ for education. \n\n备选词：test, memorize, consolidate, implications, forget, analyze, recall, observe, improve, applications",
+              "answer": "test; memorize; consolidate; implications",
+              "explanation": "解题思路：\n1. 第一空：前有不定式“to”，需动词原形。根据语义“实验旨在______睡眠对记忆的影响”，选择“test”（测试）最合适。\n2. 第二空：前有“asked to”，需动词原形。根据语义“参与者被要求在睡前______一组单词”，选择“memorize”（记忆）符合逻辑。\n3. 第三空：前有“helps”，需动词原形（help do sth.）。根据语义“睡眠有助于______信息”，选择“consolidate”（巩固）最恰当。\n4. 第四空：前有“important”，需名词。根据语义“这一发现对教育有重要的______”，选择“implications”（意义/影响）符合语境。\n其他备选词如“forget”（忘记）、“analyze”（分析）等语义不符。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "阅读以下短文片段，从备选词中选择正确的单词填入空白处（每个单词只能用一次）。\n\n短文：Climate change is a ______ problem that requires global action. Many countries have ______ to reduce carbon emissions. However, some leaders ______ that the measures are too costly. They argue that the economy should not be ______ for the sake of the environment. \n\n备选词：serious, agreed, claim, sacrificed, ignored, proposed, urgent, delayed, rejected, protected",
+              "answer": "serious; agreed; claim; sacrificed",
+              "explanation": "解题思路：\n1. 第一空：前有冠词“a”，后接名词“problem”，需形容词。根据语义“气候变化是一个______问题”，选择“serious”（严重的）或“urgent”（紧迫的）均可，但“serious”更常见，且备选词中“urgent”也可，但需唯一答案。此处选择“serious”。\n2. 第二空：前有“have”，需动词过去分词（现在完成时）。根据语义“许多国家已经______减少碳排放”，选择“agreed”（同意）符合逻辑。\n3. 第三空：主语“some leaders”后需动词原形（一般现在时）。根据语义“一些领导人______这些措施太昂贵”，选择“claim”（声称）最恰当。\n4. 第四空：前有“should not be”，需动词过去分词（被动语态）。根据语义“经济不应为了环境而被______”，选择“sacrificed”（牺牲）符合语境。\n其他备选词如“ignored”（忽视）、“rejected”（拒绝）等语义稍弱。"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ch04",
+      "title": "翻译与写作",
+      "topics": [
+        {
+          "id": "ch04_01",
+          "title": "汉译英常见句式",
+          "explanation": "## 概念理解\n汉译英常见句式是指在四级英语翻译中，将中文句子准确、地道地转换为英文时，经常使用的一系列固定句型结构。这些句式遵循英语的语法规则和表达习惯，帮助学习者避免中式英语，提升翻译的流畅性和准确性。核心概念包括：主谓宾基本结构、被动语态、形式主语“it”、并列句、复合句（定语从句、状语从句）、倒装句、强调句等。掌握这些句式是应对四级翻译题的基础。\n\n## 原理剖析\n汉英两种语言在句法结构上存在显著差异：汉语重意合，句子结构松散，多流水句；英语重形合，句子结构严谨，强调主谓宾核心和逻辑连接。汉译英时，需要将汉语的隐性逻辑显性化为英语的连接词（如and, but, because, although），并将汉语的无主句或主题句转换为英语的完整主谓结构。常见句式正是基于这一原理：例如，汉语的“据报道”对应英语的“It is reported that...”形式主语结构；汉语的“某人被某事感动”对应英语的“sb. is moved by sth.”被动语态。此外，英语常用定语从句后置修饰名词，而汉语则多用前置修饰，因此需要灵活转换。\n\n## 实例演示\n中文：很多人认为，互联网极大地改变了我们的生活。\n英文：It is widely believed that the Internet has greatly changed our lives.\n（使用形式主语“it”句式，避免“Many people think”的直译，更符合英文正式表达。）\n\n中文：这个城市以其美丽的风景而闻名。\n英文：This city is famous for its beautiful scenery.\n（使用被动语态，将中文的主动句式转换为英文常见的被动表达。）\n\n中文：只有通过努力，你才能成功。\n英文：Only by working hard can you succeed.\n（使用倒装句式，强调“只有...才”的条件关系。）\n\n## 应用场景\n汉译英常见句式在四级翻译中应用广泛：\n1. 描述事实或观点时，常用形式主语“it”句式（It is + adj. + that...）。\n2. 表达客观规律或普遍现象时，常用被动语态（be + V-ed）。\n3. 强调某一要素时，使用强调句（It is...that...）或倒装句（Only...）。\n4. 处理长难句时，使用定语从句（who/which/that）连接前后信息。\n5. 表达因果关系时，使用because/so/as a result等连接词。\n6. 处理中文无主句时，补充主语或使用被动结构。",
+          "illustration_hint": "常见句式转换示意图",
+          "mind_map": "mindmap\n  汉译英常见句式\n    基本结构\n      主谓宾\n      主系表\n    特殊句式\n      被动语态\n        be + 过去分词\n        主动表被动\n      形式主语\n        It is + adj. + to do\n        It is + adj. + that从句\n      倒装句\n        部分倒装\n        完全倒装\n      强调句\n        It is...that...\n        do/does/did + 动词原形\n    复合句\n      定语从句\n        限制性\n        非限制性\n      状语从句\n        时间\n        原因\n        条件\n    连接手段\n      并列连词\n      从属连词",
+          "common_mistakes": [
+            {
+              "mistake": "直接将中文的“因为...所以...”翻译为“because...so...”。",
+              "reason": "英语中because和so不能同时使用，这是英汉表达习惯的不同。",
+              "fix": "保留一个连接词：用because引导原因状语从句，或用so连接结果分句。",
+              "memory_tip": "because和so不同框"
+            },
+            {
+              "mistake": "翻译被动含义时，总是用“被”字对应“by”。",
+              "reason": "英语中很多被动句不需要by短语，尤其是当动作执行者不明确或不重要时。",
+              "fix": "省略by短语，直接使用被动语态，如“The problem must be solved.”",
+              "memory_tip": "被动不必有by"
+            },
+            {
+              "mistake": "将中文的“有”直接翻译为“have”，如“这里有本书”译成“Here have a book.”",
+              "reason": "英语中“有”表示存在时，通常用there be结构，而不是have。",
+              "fix": "改为“There is a book here.”",
+              "memory_tip": "存在用there be"
+            },
+            {
+              "mistake": "汉译英时忽略冠词，如“他是学生”译成“He is student.”",
+              "reason": "英语可数名词单数前必须加冠词a/an或the。",
+              "fix": "改为“He is a student.”",
+              "memory_tip": "单数名词冠词先行"
+            }
+          ],
+          "keywords": [
+            "形式主语",
+            "被动语态",
+            "倒装句",
+            "定语从句",
+            "连接词"
+          ],
+          "questions": [
+            {
+              "type": "single_choice",
+              "question": "在翻译中文句子“据报道，已有数百人在这场地震中丧生”时，最合适的英语句式是？",
+              "options": [
+                "A. It is reported that hundreds of people have died in the earthquake.",
+                "B. Report says that hundreds of people have died in the earthquake.",
+                "C. Hundreds of people have died in the earthquake according to the report.",
+                "D. The report is that hundreds of people have died in the earthquake."
+              ],
+              "answer": 0,
+              "explanation": "中文“据报道”是典型的无主句，汉译英时应转换为英语的“It is reported that...”形式主语结构，这是四级翻译中的常见句式。选项A正确使用了形式主语it，符合英语表达习惯。选项B、C、D虽然语法正确，但不如A地道，且B缺少冠词，不够规范。"
+            },
+            {
+              "type": "single_choice",
+              "question": "下列哪个句子使用了正确的定语从句来翻译“我昨天买的那本书很有趣”？",
+              "options": [
+                "A. The book that I bought yesterday is very interesting.",
+                "B. The book which I bought yesterday is very interesting.",
+                "C. I bought the book yesterday is very interesting.",
+                "D. The book I bought it yesterday is very interesting."
+              ],
+              "answer": 0,
+              "explanation": "中文中“我昨天买的”是前置定语，汉译英时应转换为后置定语从句。选项A和B都正确，但A用that更常见，且选项顺序中A为正确答案。选项C缺少关系代词且结构混乱，选项D中it多余，均为错误。"
+            },
+            {
+              "type": "single_choice",
+              "question": "翻译“我们直到会议结束才得知真相”时，应使用哪个句式？",
+              "options": [
+                "A. We didn't know the truth until the meeting ended.",
+                "B. We knew the truth until the meeting ended.",
+                "C. Until the meeting ended we knew the truth.",
+                "D. Not until the meeting ended we knew the truth."
+              ],
+              "answer": 0,
+              "explanation": "中文“直到……才……”对应英语的“not...until...”结构，表示“直到……才……”。选项A正确使用了否定结构。选项B意思相反，选项C语序错误，选项D缺少主谓倒装（应为Not until the meeting ended did we know the truth）。"
+            },
+            {
+              "type": "single_choice",
+              "question": "在翻译“正是他的努力使他成功”时，最佳句式是？",
+              "options": [
+                "A. It is his effort that makes him successful.",
+                "B. His effort makes him successful.",
+                "C. That is his effort makes him successful.",
+                "D. It is his effort makes him successful."
+              ],
+              "answer": 0,
+              "explanation": "中文“正是……使……”是典型的强调句式，汉译英时应使用“It is...that...”强调结构。选项A正确。选项B是普通陈述句，不够准确表达强调语气；选项C缺少关系词；选项D缺少that。"
+            },
+            {
+              "type": "single_choice",
+              "question": "下列哪个选项正确翻译了“无论你走到哪里，我都会支持你”？",
+              "options": [
+                "A. Wherever you go, I will support you.",
+                "B. No matter where do you go, I will support you.",
+                "C. Where you go, I will support you.",
+                "D. Whatever you go, I will support you."
+              ],
+              "answer": 0,
+              "explanation": "中文“无论……都……”对应英语的“wherever/whatever/no matter where”等状语从句。选项A正确使用了Wherever引导的让步状语从句。选项B语序错误（应为No matter where you go），选项C缺少“无论”含义，选项D中Whatever使用不当（应用Wherever）。"
+            },
+            {
+              "type": "true_false",
+              "question": "翻译“这个问题很难解决”时，可以直接译为“This problem is difficult to solve it.”",
+              "answer": false,
+              "explanation": "在“主语+be+adj.+to do”句式中，不定式中的动词与主语存在动宾关系，因此不能重复使用宾语。正确译文应为“This problem is difficult to solve.”，去掉it。"
+            },
+            {
+              "type": "true_false",
+              "question": "汉译英时，汉语的无主句如“必须采取措施保护环境”应使用被动语态翻译。",
+              "answer": true,
+              "explanation": "汉语无主句在英语中常转换为被动语态，以符合英语主谓结构的要求。正确译文为“Measures must be taken to protect the environment.”，这是四级翻译中的常见句式。"
+            },
+            {
+              "type": "true_false",
+              "question": "翻译“虽然他很累，但他还是完成了工作”时，可以使用“Although he was tired, but he finished the work.”",
+              "answer": false,
+              "explanation": "英语中although和but不能同时使用，因为although已表示让步关系。正确译文应为“Although he was tired, he finished the work.”或“He was tired, but he finished the work.”。"
+            },
+            {
+              "type": "true_false",
+              "question": "在翻译“他跑得很快，以至于没人能追上他”时，应使用“so...that...”句式。",
+              "answer": true,
+              "explanation": "中文“如此……以至于……”对应英语的“so...that...”结构，表示结果。正确译文为“He ran so fast that no one could catch up with him.”，这是四级翻译中的常见句式。"
+            },
+            {
+              "type": "true_false",
+              "question": "翻译“她不仅会唱歌，还会跳舞”时，可以使用“Not only she can sing, but also she can dance.”",
+              "answer": false,
+              "explanation": "当not only位于句首时，主句需要部分倒装。正确译文应为“Not only can she sing, but also she can dance.”，这是倒装句式的常见考点。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "翻译“众所周知，中国是一个历史悠久的国家。”应使用句式：______ is known to all that China is a country with a long history.",
+              "answer": "It",
+              "explanation": "中文“众所周知”对应英语的“It is known to all that...”形式主语结构，其中It作形式主语，真正的主语是that从句。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "翻译“这本书值得一读”时，应使用句式：This book is worth ______.",
+              "answer": "reading",
+              "explanation": "固定搭配“be worth doing”表示“值得做某事”，其中doing用主动形式表示被动含义。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "翻译“他昨天没有来上课，因为他生病了”时，应使用______从句连接原因。",
+              "answer": "because/状语",
+              "explanation": "中文“因为”表示原因，汉译英时应使用because引导的原因状语从句。完整译文为“He didn't come to class yesterday because he was ill.”"
+            },
+            {
+              "type": "fill_blank",
+              "question": "翻译“我们正在考虑如何解决这个问题”时，应使用“疑问词+______”结构。",
+              "answer": "to do/不定式",
+              "explanation": "英语中“疑问词+不定式”结构可作宾语，相当于一个宾语从句。完整译文为“We are considering how to solve this problem.”"
+            },
+            {
+              "type": "fill_blank",
+              "question": "翻译“他坚持要和我一起去”时，应使用句式：He insisted on ______ with me.",
+              "answer": "going",
+              "explanation": "动词短语“insist on”后接动名词作宾语，表示“坚持做某事”。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "请将以下中文段落翻译为英文，注意使用合适的汉译英常见句式：\n\n“很多人认为，互联网极大地改变了我们的生活方式。它不仅让信息获取变得更容易，还促进了全球交流。然而，也有人担心，过度使用互联网可能会导致社交孤立。事实上，如何正确使用互联网已经成为一个重要的问题。”",
+              "answer": "Many people believe that the Internet has greatly changed our way of life. Not only has it made information acquisition easier, but it has also promoted global communication. However, some people worry that overuse of the Internet may lead to social isolation. In fact, how to use the Internet properly has become an important issue.",
+              "explanation": "解题思路：\n1. 第一句“很多人认为”使用主谓宾结构+that宾语从句，是基本句式。\n2. 第二句“不仅……还……”使用not only位于句首的倒装句式，注意主谓倒装。\n3. 第三句“然而，也有人担心”使用However连接，worry后接that宾语从句。\n4. 第四句“事实上”用In fact开头，“如何正确使用互联网”使用“疑问词+不定式”结构作主语。\n5. 整体注意时态一致性，使用现在完成时和一般现在时。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "请使用形式主语“it”的句式翻译以下句子：\n\n“对我们来说，掌握一门外语是非常重要的。”",
+              "answer": "It is very important for us to master a foreign language.",
+              "explanation": "解题思路：\n1. 中文“对我们来说，……是非常重要的”中，“非常重要”是表语，“掌握一门外语”是真正的主语。\n2. 英语中为避免主语过长，常用it作形式主语，将真正的主语后置为不定式短语。\n3. 句式结构：It is + adj. + for sb. + to do sth.。\n4. 注意：for us表示“对我们来说”，to master a foreign language是真正主语。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "请将下列中文句子翻译为英文，要求使用定语从句：\n\n“我认识一位老师，他的教学方法非常独特。”",
+              "answer": "I know a teacher whose teaching method is very unique.",
+              "explanation": "解题思路：\n1. 中文“一位老师，他的教学方法”中，“他的”指代老师的所有格关系。\n2. 英语中表示“某人的”用关系代词whose引导定语从句。\n3. 句式结构：主句 + 关系代词whose + 定语从句。\n4. 注意：whose在从句中作定语，修饰teaching method。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "请将下列中文句子翻译为英文，要求使用被动语态：\n\n“每年都有数百万棵树被种植以改善环境。”",
+              "answer": "Millions of trees are planted every year to improve the environment.",
+              "explanation": "解题思路：\n1. 中文“被种植”提示使用被动语态，且“每年”表示一般现在时。\n2. 英语被动语态结构：主语（受动者）+ be + 过去分词 + 其他。\n3. “数百万棵树”作主语，“种植”用plant的过去分词planted。\n4. “以改善环境”用不定式to improve the environment表示目的。\n5. 注意：中文无主句或强调受动者时，常用被动语态。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "请将下列中文句子翻译为英文，要求使用强调句式：\n\n“昨天在公园里，我遇见了我的老朋友。”",
+              "answer": "It was yesterday that I met my old friend in the park. / It was in the park that I met my old friend yesterday.",
+              "explanation": "解题思路：\n1. 中文强调“昨天”或“在公园里”，需使用“It is/was...that...”强调句式。\n2. 强调时间“昨天”时，将yesterday放在It was之后，其余部分放在that之后。\n3. 强调地点“在公园里”时，将in the park放在It was之后。\n4. 注意：强调句式中，that后的部分用陈述语序，且不能省略that。\n5. 两种译法均可，取决于强调的重点。"
+            }
+          ]
+        },
+        {
+          "id": "ch04_02",
+          "title": "四级作文模板与结构",
+          "explanation": "## 概念理解\n四级作文模板与结构是指考生在写作时遵循的一种固定框架和逻辑顺序。它通常包括开头段（引入话题、表明观点）、主体段（展开论证、提供论据）和结尾段（总结观点、升华主题）。模板并非死记硬背的套话，而是帮助考生快速组织思路、确保文章逻辑清晰、语言得体的工具。掌握四级作文结构，意味着能准确运用“三段式”或“四段式”布局，并在各段落中使用恰当的过渡词和句型。\n\n## 原理剖析\n四级作文的评分标准主要关注内容完整、结构清晰、语言准确和逻辑连贯。模板与结构的核心原理是“标准化思维框架”：通过预设的段落功能和句式，减少考场上的思考时间，降低语法错误率。例如，开头段使用“现象+观点”模式，主体段采用“主题句+例证+解释”的论证链，结尾段用“总结+建议或展望”收束。这种结构化写作符合英语议论文的线性思维，能确保每段都有明确功能，避免跑题或逻辑断层。同时，模板中的高级句式（如定语从句、倒装句）可提升语言档次，但需灵活替换内容，防止千篇一律。\n\n## 实例演示\n题目：Should College Students Take Part-Time Jobs?\n- 开头段模板：Nowadays, an increasing number of college students are taking part-time jobs. From my perspective, this trend has both advantages and disadvantages.\n- 主体段1（优点）：First and foremost, part-time jobs can provide students with practical experience, which helps them better understand the real world. For example, working as a tutor not only improves their communication skills but also reinforces their own knowledge.\n- 主体段2（缺点）：On the other hand, too much work may distract students from their studies. If they spend too much time earning money, their academic performance might suffer.\n- 结尾段模板：In conclusion, while part-time jobs offer valuable opportunities, students should strike a balance between work and study to maximize benefits.\n\n## 应用场景\n该知识点适用于四级考试中所有议论文、说明文和应用文（如书信、告示）的写作。在议论文中，模板确保观点鲜明、论证充分；在说明文中，结构帮助按顺序描述现象或原因；在应用文中，模板提供固定格式（如开头问候、结尾致谢）。此外，在平时练习和模拟考试中，反复使用模板能培养写作习惯，提高速度与质量。",
+          "illustration_hint": "四级作文三段式结构示意图",
+          "mind_map": "mindmap\n  root((四级作文模板与结构))\n    开头段\n      引入话题\n        现象描述\n        背景介绍\n      表明观点\n        明确立场\n        引出下文\n    主体段\n      段落结构\n        主题句\n        论证细节\n        例证或数据\n      逻辑连接\n        递进关系\n        转折关系\n        因果关系\n      论证方法\n        举例论证\n        对比论证\n        因果论证\n    结尾段\n      总结观点\n        重申立场\n        概括要点\n      升华主题\n        提出建议\n        展望未来",
+          "common_mistakes": [
+            {
+              "mistake": "生搬硬套模板，内容空洞",
+              "reason": "只背句型不填充具体内容，导致文章缺乏针对性",
+              "fix": "将模板句型与题目具体信息结合，确保每句话都有实质内容",
+              "memory_tip": "模板是骨架，内容是血肉"
+            },
+            {
+              "mistake": "忽略段落间的逻辑过渡",
+              "reason": "段落之间缺少连接词，使文章跳跃不连贯",
+              "fix": "使用First of all, Moreover, However, In conclusion等过渡词",
+              "memory_tip": "连词搭桥，逻辑顺畅"
+            },
+            {
+              "mistake": "开头或结尾过长，主体单薄",
+              "reason": "时间分配不均，导致论证不充分",
+              "fix": "控制开头结尾各2-3句，主体段写4-6句，确保论据详实",
+              "memory_tip": "头尾精炼，主体丰满"
+            },
+            {
+              "mistake": "过度使用复杂句型导致错误",
+              "reason": "刻意追求高级语法，反而出现时态、主谓一致错误",
+              "fix": "优先保证语法正确，再适当使用1-2个高级句型点缀",
+              "memory_tip": "正确第一，华丽第二"
+            }
+          ],
+          "keywords": [
+            "三段式结构",
+            "过渡词",
+            "主题句",
+            "论证方法",
+            "结尾升华"
+          ],
+          "questions": [
+            {
+              "type": "single_choice",
+              "question": "四级作文中，哪一部分通常用于引入话题并表明观点？",
+              "options": [
+                "A. 开头段",
+                "B. 主体段",
+                "C. 结尾段",
+                "D. 过渡段"
+              ],
+              "answer": 0,
+              "explanation": "根据四级作文模板与结构，开头段的功能是引入话题并表明观点，主体段用于展开论证，结尾段用于总结观点。"
+            },
+            {
+              "type": "single_choice",
+              "question": "在四级作文的主体段中，通常采用哪种论证结构？",
+              "options": [
+                "A. 主题句+例证+解释",
+                "B. 现象+观点+总结",
+                "C. 开头+过渡+结尾",
+                "D. 背景+问题+建议"
+              ],
+              "answer": 0,
+              "explanation": "四级作文主体段常用“主题句+例证+解释”的论证链，这样能确保逻辑连贯、论据充分。"
+            },
+            {
+              "type": "single_choice",
+              "question": "以下哪种句式属于四级作文模板中的高级句式？",
+              "options": [
+                "A. 简单句",
+                "B. 定语从句",
+                "C. 祈使句",
+                "D. 感叹句"
+              ],
+              "answer": 1,
+              "explanation": "定语从句、倒装句等复杂句式被视为高级句式，能提升语言档次，而简单句、祈使句、感叹句相对基础。"
+            },
+            {
+              "type": "single_choice",
+              "question": "四级作文评分标准中，哪一项不属于主要关注点？",
+              "options": [
+                "A. 内容完整",
+                "B. 结构清晰",
+                "C. 字数达标",
+                "D. 语言准确"
+              ],
+              "answer": 2,
+              "explanation": "四级作文评分主要关注内容完整、结构清晰、语言准确和逻辑连贯，字数虽有一定要求，但不是核心评分标准。"
+            },
+            {
+              "type": "single_choice",
+              "question": "在四级作文结尾段，通常使用的收束方式是什么？",
+              "options": [
+                "A. 提出新观点",
+                "B. 重复开头句",
+                "C. 总结+建议或展望",
+                "D. 列举更多例子"
+              ],
+              "answer": 2,
+              "explanation": "结尾段一般用“总结+建议或展望”来收束，避免引入新观点或简单重复，确保文章结构完整。"
+            },
+            {
+              "type": "true_false",
+              "question": "四级作文模板要求考生完全背诵固定套话，不能替换内容。",
+              "answer": false,
+              "explanation": "模板并非死记硬背的套话，而是帮助考生快速组织思路的工具，内容需根据题目灵活替换，避免千篇一律。"
+            },
+            {
+              "type": "true_false",
+              "question": "四级作文的“三段式”结构通常包括开头段、主体段和结尾段。",
+              "answer": true,
+              "explanation": "“三段式”结构是四级作文最常见的布局，包含开头段（引入话题和观点）、主体段（展开论证）和结尾段（总结观点）。"
+            },
+            {
+              "type": "true_false",
+              "question": "四级作文中，过渡词的使用有助于提升逻辑连贯性。",
+              "answer": true,
+              "explanation": "过渡词（如however, therefore, moreover）能连接段落和句子，使文章逻辑更清晰，是结构的重要组成部分。"
+            },
+            {
+              "type": "true_false",
+              "question": "四级作文的主体段可以随意写，不需要主题句。",
+              "answer": false,
+              "explanation": "主体段通常需要主题句来明确段落中心，再辅以例证和解释，否则容易导致内容松散或跑题。"
+            },
+            {
+              "type": "true_false",
+              "question": "在四级作文中使用倒装句可以提升语言档次，但需注意语法正确。",
+              "answer": true,
+              "explanation": "倒装句属于高级句式，能增强表达效果，但若使用不当会造成语法错误，因此需灵活且准确地运用。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "四级作文模板的核心原理是“___思维框架”，通过预设段落功能减少考场思考时间。",
+              "answer": "标准化",
+              "explanation": "模板的核心原理是“标准化思维框架”，帮助考生快速组织思路，确保逻辑清晰。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "在四级作文开头段，常用的模式是“现象+___”。",
+              "answer": "观点",
+              "explanation": "开头段常用“现象+观点”模式，先描述背景或问题，再明确表达自己的立场。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "四级作文的“四段式”结构通常比“三段式”多出一个___段。",
+              "answer": "过渡",
+              "explanation": "“四段式”在“三段式”基础上增加一个过渡段或独立论证段，使结构更丰富。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "在主体段论证中，“主题句+例证+___”是常见的逻辑链。",
+              "answer": "解释",
+              "explanation": "主体段论证链为“主题句+例证+解释”，先提出观点，再用例子支持，最后解释其意义。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "四级作文评分中，___连贯是确保文章不跑题的关键因素之一。",
+              "answer": "逻辑",
+              "explanation": "逻辑连贯是评分标准之一，通过合理使用模板和过渡词，能避免文章内容跳跃或断层。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "请根据以下题目，写出一篇完整的四级作文开头段和主体段（至少一段），要求使用“现象+观点”开头，主体段包含主题句和例证。题目：Should College Students Take Part-Time Jobs?",
+              "answer": "开头段：Nowadays, an increasing number of college students choose to take part-time jobs during their study. Some people argue that this practice distracts students from academic work, while others believe it provides valuable experience. From my perspective, taking part-time jobs is beneficial for college students. \n主体段：First of all, part-time jobs help students develop practical skills. For example, a student working as a tutor can improve communication and problem-solving abilities. These skills are not only useful for future careers but also enhance personal growth. Therefore, the experience gained from part-time jobs outweighs potential drawbacks.",
+              "explanation": "开头段先描述现象（越来越多大学生做兼职），然后引出两种观点，最后表明自己的立场（利大于弊）。主体段以主题句“兼职有助于培养实用技能”开头，用家教例子支撑，并解释其意义，符合“主题句+例证+解释”结构。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "请分析以下作文段落是否符合四级作文模板要求，并指出问题：'I think part-time jobs are good. Many students do them. They can make money. It is very important. So I agree.'",
+              "answer": "该段落不符合四级作文模板要求。问题包括：1）缺乏主题句，观点表达过于简单；2）没有具体例证或解释，论证单薄；3）句式单一，全部使用简单句，缺乏过渡词和高级句式；4）逻辑跳跃，未形成“主题句+例证+解释”的论证链。改进建议：可改写为 'In my opinion, part-time jobs offer significant benefits to college students. For instance, a student working as a waiter can learn time management and teamwork. This experience not only provides financial support but also prepares them for future careers. Therefore, I believe part-time jobs are highly beneficial.'",
+              "explanation": "原段落内容散乱，未使用模板结构，导致逻辑不清。改进后的段落有明确主题句、例证和解释，符合四级作文结构要求。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "请修改以下结尾段，使其符合四级作文模板要求：'In conclusion, part-time jobs are good. I hope everyone do it. That is all.'",
+              "answer": "修改后：In conclusion, part-time jobs bring numerous advantages to college students, such as skill development and financial independence. Therefore, I strongly recommend that students seize these opportunities to enrich their campus life and prepare for the future. Only by balancing work and study can they achieve holistic growth.",
+              "explanation": "原结尾段过于简单，缺乏总结和升华。修改后先总结观点（好处），再提出建议（推荐抓住机会），最后用倒装句（Only by...）提升语言档次，符合“总结+建议或展望”的模板要求。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "请根据四级作文模板，为题目 'The Importance of Environmental Protection' 设计一个完整的四段式结构（只需写出各段主题句）。",
+              "answer": "第一段（开头段）：With the rapid development of industry, environmental problems have become increasingly severe, and it is urgent for everyone to take action. From my perspective, environmental protection is of great significance to both human health and the planet's sustainability. \n第二段（主体段1）：First and foremost, environmental protection directly affects public health. For example, air pollution caused by factories can lead to respiratory diseases, highlighting the need for stricter regulations. \n第三段（主体段2）：Moreover, preserving the environment ensures the long-term survival of ecosystems. Without clean water and soil, agriculture and wildlife would collapse, threatening food security. \n第四段（结尾段）：In conclusion, environmental protection is not only a personal responsibility but also a global necessity. Governments and individuals should work together to adopt sustainable practices, so that future generations can enjoy a healthy planet.",
+              "explanation": "该结构采用四段式：开头段引入话题并表明观点，两个主体段分别从公共健康和生态系统角度论证，结尾段总结并提出合作建议。每段都有清晰的主题句，符合模板要求。"
+            }
+          ]
+        },
+        {
+          "id": "ch04_03",
+          "title": "图表作文写作技巧",
+          "explanation": "## 概念理解\n图表作文是四级英语写作中常见的一种题型，要求考生根据给定的图表（如柱状图、折线图、饼图或表格）所呈现的数据信息，进行描述、分析并得出结论。其核心在于客观、准确地转述图表中的关键数据趋势，并在此基础上进行合理的逻辑推断，而非简单罗列所有数据。\n\n## 原理剖析\n图表作文的写作遵循“描述-分析-总结”的三段式结构。第一段是“描述”，需抓住图表的主标题、横纵坐标含义以及最显著的数据变化趋势（如上升、下降、波动、持平），使用“as is shown in the chart, the number of... increased dramatically from... to...”等句型。第二段是“分析”，解释数据变化背后的可能原因，如经济发展、政策影响、科技推动或社会观念转变，常用“several factors contribute to this phenomenon. Firstly... Secondly...”。第三段是“总结”，简要概括图表反映的总体情况或提出个人预测/建议，避免引入新数据。\n\n## 实例演示\n以“某校大学生手机使用时长变化”的柱状图为例：2018年日均1.5小时，2020年增至3小时，2022年达4.5小时。正确写作：第一段描述“The bar chart illustrates the average daily time college students spent on mobile phones from 2018 to 2022. There was a steady increase, rising from 1.5 hours to 4.5 hours.” 第二段分析“This growth can be attributed to the proliferation of smartphones and the increasing reliance on mobile apps for study, entertainment, and socializing.” 第三段总结“In conclusion, mobile phones have become an indispensable part of college life, and this trend is likely to continue.”\n\n## 应用场景\n图表作文技巧不仅用于四级考试，还广泛适用于学术报告、商业简报、市场分析等场景。例如，在撰写销售报告时，用图表描述季度销售额变化；在学术论文中，用图表展示实验数据趋势。掌握此技巧能提升信息传达的清晰度和说服力。",
+          "illustration_hint": "柱状图展示数据上升趋势与写作结构对应",
+          "mind_map": "mindmap\n  root((图表作文写作技巧))\n    结构框架\n      三段式\n        描述趋势\n        分析原因\n        总结展望\n    数据描述\n      识别趋势\n        上升\n        下降\n        波动\n        持平\n      关键句型\n        as is shown\n        increased dramatically\n        remained stable\n    原因分析\n      常见角度\n        经济因素\n        社会观念\n        科技发展\n        政策影响\n    注意事项\n      避免数据堆砌\n      客观描述\n      逻辑连贯\n      字数控制",
+          "common_mistakes": [
+            {
+              "mistake": "只罗列数据，不总结趋势",
+              "reason": "缺乏对整体变化的把握，导致文章像流水账",
+              "fix": "先概括总体趋势，再挑选2-3个关键数据点支撑",
+              "memory_tip": "先总后分，数据点睛"
+            },
+            {
+              "mistake": "原因分析主观臆断，脱离数据",
+              "reason": "未基于图表本身信息，随意编造原因",
+              "fix": "原因应与数据趋势合理关联，如上升常与增长、普及有关",
+              "memory_tip": "数据说话，原因挂钩"
+            },
+            {
+              "mistake": "忽略图表标题和单位",
+              "reason": "导致描述对象或数值含义错误",
+              "fix": "仔细阅读标题、坐标轴标签和单位，确保描述准确",
+              "memory_tip": "标题单位，一眼看清"
+            },
+            {
+              "mistake": "时态使用混乱",
+              "reason": "图表数据若为过去年份，应用过去时；预测未来用将来时",
+              "fix": "根据图表时间标注统一时态，通常用一般过去时",
+              "memory_tip": "时间定态，时态不怪"
+            }
+          ],
+          "keywords": [
+            "趋势描述",
+            "数据支撑",
+            "原因分析",
+            "三段式结构",
+            "客观转述"
+          ],
+          "questions": [
+            {
+              "type": "single_choice",
+              "question": "图表作文的核心写作要求是什么？",
+              "options": [
+                "A. 罗列图表中的所有数据",
+                "B. 客观描述关键数据趋势并进行分析",
+                "C. 只描述图表标题",
+                "D. 加入大量个人情感"
+              ],
+              "answer": 1,
+              "explanation": "图表作文要求客观准确地转述关键数据趋势，并在此基础上进行逻辑分析，而非简单罗列所有数据或加入个人情感。"
+            },
+            {
+              "type": "single_choice",
+              "question": "图表作文的“三段式”结构正确顺序是？",
+              "options": [
+                "A. 分析-描述-总结",
+                "B. 描述-分析-总结",
+                "C. 总结-描述-分析",
+                "D. 描述-总结-分析"
+              ],
+              "answer": 1,
+              "explanation": "图表作文遵循“描述-分析-总结”的三段式结构：第一段描述数据趋势，第二段分析原因，第三段总结或预测。"
+            },
+            {
+              "type": "single_choice",
+              "question": "以下哪个句型适合用于描述数据上升？",
+              "options": [
+                "A. the number decreased sharply",
+                "B. the number remained stable",
+                "C. the number increased dramatically",
+                "D. the number fluctuated wildly"
+              ],
+              "answer": 2,
+              "explanation": "“increased dramatically”表示急剧上升，符合描述数据上升的句型。其他选项分别表示下降、稳定和波动。"
+            },
+            {
+              "type": "single_choice",
+              "question": "在分析数据变化原因时，通常不推荐使用哪种方式？",
+              "options": [
+                "A. 从经济发展角度分析",
+                "B. 从政策影响角度分析",
+                "C. 引入图表中未出现的新数据",
+                "D. 从社会观念转变角度分析"
+              ],
+              "answer": 2,
+              "explanation": "分析原因时应基于图表数据合理推断，不应引入图表中未出现的新数据，以免偏离主题。"
+            },
+            {
+              "type": "single_choice",
+              "question": "图表作文的第三段（总结段）应避免什么？",
+              "options": [
+                "A. 概括总体趋势",
+                "B. 提出个人预测",
+                "C. 引入新数据",
+                "D. 给出合理建议"
+              ],
+              "answer": 2,
+              "explanation": "总结段应简要概括图表反映的情况或提出预测/建议，但不应引入新数据，以免破坏文章结构。"
+            },
+            {
+              "type": "true_false",
+              "question": "图表作文中，描述数据时应该使用“as is shown in the chart”等固定句型。",
+              "answer": true,
+              "explanation": "这类句型是图表作文的常用表达，能清晰引出图表信息，符合写作规范。"
+            },
+            {
+              "type": "true_false",
+              "question": "图表作文可以只描述数据，不需要进行分析和总结。",
+              "answer": false,
+              "explanation": "根据“描述-分析-总结”结构，分析和总结是必要部分，仅描述数据不完整。"
+            },
+            {
+              "type": "true_false",
+              "question": "在描述数据时，应关注最显著的变化趋势，而非所有细节。",
+              "answer": true,
+              "explanation": "图表作文要求抓住关键趋势和显著变化，避免罗列所有数据，否则会显得冗长。"
+            },
+            {
+              "type": "true_false",
+              "question": "“the number of... increased dramatically from... to...”适用于描述下降趋势。",
+              "answer": false,
+              "explanation": "该句型中的“increased dramatically”表示上升，不适用于描述下降趋势。"
+            },
+            {
+              "type": "true_false",
+              "question": "图表作文的原因分析部分可以使用“Firstly... Secondly...”等连接词。",
+              "answer": true,
+              "explanation": "使用连接词可以使分析条理清晰，是图表作文的常见写作技巧。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "图表作文的三段式结构为：第一段_____，第二段分析，第三段总结。",
+              "answer": "描述",
+              "explanation": "第一段需要描述图表中的关键数据趋势，因此填空为“描述”。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "在图表作文中，描述数据平稳不变时常用短语“remained _____”。",
+              "answer": "stable",
+              "explanation": "“remained stable”表示保持稳定，是描述数据持平的标准表达。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "图表作文的常见题型包括柱状图、折线图、饼图和_____。",
+              "answer": "表格",
+              "explanation": "四级图表作文通常涉及柱状图、折线图、饼图和表格四种形式。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "分析数据变化原因时，常用句型“Several factors _____ to this phenomenon.”。",
+              "answer": "contribute",
+              "explanation": "“contribute to”表示“导致、促成”，是分析原因的常见搭配。"
+            },
+            {
+              "type": "fill_blank",
+              "question": "在总结段落中，应避免引入_____，以免破坏文章结构。",
+              "answer": "新数据",
+              "explanation": "总结段应基于已有数据概括或预测，引入新数据会显得突兀且不符合写作规范。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "根据以下图表信息，写一段图表作文的第一段（描述段）：某校2018-2022年图书馆借书量（单位：千册）：2018年120，2019年150，2020年90，2021年110，2022年180。请描述数据趋势。",
+              "answer": "As is shown in the chart, the number of books borrowed from the library of a university from 2018 to 2022 experienced a fluctuating but overall increasing trend. Specifically, the borrowing number increased from 120,000 in 2018 to 150,000 in 2019, but then dropped sharply to 90,000 in 2020. After that, it rose gradually to 110,000 in 2021 and reached a peak of 180,000 in 2022.",
+              "explanation": "描述段需先概括总体趋势（波动但总体上升），再按时间顺序描述关键变化，包括上升、下降和峰值，使用具体数据支撑。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "基于上一题的数据，请写出分析段，解释2020年借书量下降的可能原因（至少两个）。",
+              "answer": "Several factors contribute to the sharp decline in 2020. Firstly, the outbreak of the COVID-19 pandemic forced the university to close its campus, reducing students' access to the library. Secondly, the shift to online learning might have led students to rely more on digital resources rather than physical books, further decreasing the borrowing number.",
+              "explanation": "分析段应提出合理的社会或外部因素，如疫情导致校园关闭、线上学习普及等，使用Firstly/Secondly使逻辑清晰。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "请为上述图表写一个总结段，要求概括总体情况并提出一条建议。",
+              "answer": "Overall, the data reflects that the library borrowing number fluctuated but showed a significant recovery by 2022. To maintain this positive trend, the university could consider promoting reading activities and improving the library's digital services to attract more students.",
+              "explanation": "总结段先概括总体趋势（波动但恢复），然后提出具体建议（如推广活动或优化服务），避免引入新数据。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "假设图表显示某城市2020-2023年新能源汽车销量（单位：万辆）：2020年10，2021年25，2022年45，2023年70。请描述其总体趋势并分析原因（至少两个）。",
+              "answer": "描述：As is shown in the chart, the sales of new energy vehicles in a city increased dramatically from 100,000 in 2020 to 700,000 in 2023, showing a consistent upward trend. 分析：Several factors contribute to this phenomenon. Firstly, government policies such as subsidies and tax exemptions encouraged consumers to purchase new energy vehicles. Secondly, advances in battery technology improved vehicle range and reduced costs, making them more attractive to the public.",
+              "explanation": "描述段需突出持续上升的趋势并用数据佐证；分析段从政策和科技两个角度展开，使用连接词增强条理性。"
+            },
+            {
+              "type": "comprehensive",
+              "question": "请为以下饼图写一段描述段：某校学生课余活动分布：学习40%，运动25%，社交20%，娱乐15%。",
+              "answer": "As is shown in the pie chart, the distribution of students' after-class activities is uneven. Learning accounts for the largest proportion at 40%, followed by sports at 25% and socializing at 20%. Entertainment takes up the smallest share, only 15%.",
+              "explanation": "饼图描述应突出占比最大和最小的部分，使用“account for”“followed by”等表达，数据准确。"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

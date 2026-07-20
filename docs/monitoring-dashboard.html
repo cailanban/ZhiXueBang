@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>智学帮 V8 · 可观测性监控</title>
+<style>
+  :root { --bg: #0a0a0f; --card: #12121a; --border: #1e1e2e; --text: #e0e0e0; --muted: #888; --primary: #7c3aed; --accent: #a78bfa; --green: #22c55e; --red: #ef4444; --yellow: #eab308; --blue: #3b82f6; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); min-height: 100vh; padding: 24px; }
+  .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 32px; }
+  .header h1 { font-size: 24px; font-weight: 700; }
+  .header .badge { background: var(--primary); color: #fff; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin-bottom: 32px; }
+  .stat-card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 20px; }
+  .stat-card .label { font-size: 12px; color: var(--muted); margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .stat-card .value { font-size: 32px; font-weight: 700; }
+  .stat-card .sub { font-size: 12px; color: var(--muted); margin-top: 4px; }
+  .section-title { font-size: 14px; font-weight: 600; color: var(--muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 12px; margin-top: 8px; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { text-align: left; padding: 12px 16px; border-bottom: 1px solid var(--border); }
+  th { font-size: 11px; color: var(--muted); font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
+  td { font-size: 13px; }
+  .status { display: inline-flex; align-items: center; gap: 6px; font-size: 12px; font-weight: 600; }
+  .status::before { content: ''; width: 8px; height: 8px; border-radius: 50%; }
+  .status.online::before { background: var(--green); }
+  .status.error::before { background: var(--red); }
+  .status.pending::before { background: var(--yellow); }
+  .table-card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; overflow: hidden; margin-bottom: 24px; }
+  .table-card-header { padding: 16px 20px; border-bottom: 1px solid var(--border); display: flex; justify-content: space-between; align-items: center; }
+  .table-card-header h3 { font-size: 14px; font-weight: 600; }
+  .refresh-btn { background: var(--primary); color: #fff; border: none; padding: 6px 14px; border-radius: 8px; font-size: 12px; cursor: pointer; font-weight: 600; }
+  .note { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 16px; margin-top: 24px; }
+  .note h4 { font-size: 13px; font-weight: 600; margin-bottom: 8px; color: var(--yellow); }
+  .note p { font-size: 12px; color: var(--muted); line-height: 1.6; }
+  code { background: rgba(124, 58, 237, 0.15); color: var(--accent); padding: 2px 6px; border-radius: 4px; font-size: 12px; }
+  .loading { text-align: center; padding: 40px; color: var(--muted); }
+  .metric-bar { height: 4px; border-radius: 2px; background: var(--border); overflow: hidden; margin-top: 4px; }
+  .metric-bar .fill { height: 100%; border-radius: 2px; transition: width 0.3s; }
+  .fill.green { background: var(--green); }
+  .fill.blue { background: var(--blue); }
+  .fill.accent { background: var(--accent); }
+</style>
+</head>
+<body>
+<div class="header">
+  <div>
+    <h1>智学帮 V8 · 可观测性监控</h1>
+    <p style="font-size: 13px; color: var(--muted); margin-top: 4px;">Edge Functions 运行状态、成本追踪、详细指标</p>
+  </div>
+  <span class="badge">v8-rc</span>
+</div>
+
+<div class="grid" id="statCards">
+  <div class="stat-card"><div class="label">活跃函数</div><div class="value" id="fnCount">--</div><div class="sub">已部署 Edge Functions</div></div>
+  <div class="stat-card"><div class="label">今日成本</div><div class="value" id="todayCost">--</div><div class="sub">累计 API 调用费用</div></div>
+  <div class="stat-card"><div class="label">在线率</div><div class="value" id="uptime">--</div><div class="sub">函数健康检查通过率</div></div>
+  <div class="stat-card"><div class="label">GPU 状态</div><div class="value" id="gpuStatus">--</div><div class="sub">数字人 GPU 在线状态</div></div>
+</div>
+
+<div class="table-card">
+  <div class="table-card-header">
+    <h3>Edge Functions 状态</h3>
+    <button class="refresh-btn" onclick="refresh()">刷新</button>
+  </div>
+  <div style="overflow-x: auto;">
+    <table>
+      <thead><tr><th>函数名称</th><th>状态</th><th>TTFT</th><th>延迟</th><th>成本</th><th>最近错误</th></tr></thead>
+      <tbody id="fnTable"><tr><td colspan="6" class="loading">正在获取函数状态...</td></tr></tbody>
+    </table>
+  </div>
+</div>
+
+<div class="table-card">
+  <div class="table-card-header"><h3>评测指标</h3></div>
+  <div style="overflow-x: auto;">
+    <table>
+      <thead><tr><th>指标</th><th>Recall@3</th><th>Recall@5</th><th>MRR</th><th>NDCG@5</th></tr></thead>
+      <tbody id="evalTable"><tr><td colspan="4" class="loading">等待数据集标注...</td></tr></tbody>
+    </table>
+  </div>
+</div>
+
+<div class="note">
+  <h4>P0-P2 完成状态</h4>
+  <p>
+    <strong>P0-1</strong> 密钥轮换（用户操作） |
+    <strong>P0-2</strong> ✅ 证据字段闭环 |
+    <strong>P0-3</strong> ✅ 两项知识库函数部署 |
+    <strong>P0-4</strong> ✅ 全站数据审计 |
+    <strong>P0-5</strong> ✅ 63 测试 + Playwright E2E<br>
+    <strong>P1-1</strong> ✅ 推荐反馈重排 |
+    <strong>P1-2</strong> ✅ 管家验收脚本 |
+    <strong>P1-3</strong> ✅ 评测数据集 + self_annotate |
+    <strong>P1-4</strong> ✅ GPU 健康检测 + 学习上下文 |
+    <strong>P2-1</strong> ✅ PPT 工厂 V2 + 视频合成 |
+    <strong>P2-2</strong> ✅ 详细可观测性指标<br>
+    <strong>迁移待执行</strong>：00022-00025 |
+    <strong>部署待执行</strong>：generate-ppt, avatar-gateway, synthesize-video
+  </p>
+</div>
+
+<script>
+const SUPABASE_URL = 'https://pnmjgxsemgldncqbimbt.supabase.co';
+const FUNCTIONS = ['index-knowledge-wiki','knowledge-retrieval-agent','learning-butler','avatar-gateway','synthesize-video','generate-ppt','eval-retrieval','discover-learning-resources'];
+
+async function checkFunction(name) {
+  try {
+    const t0 = Date.now();
+    const res = await fetch(`${SUPABASE_URL}/functions/v1/${name}`, { method: 'GET', headers: { 'Authorization': 'Bearer anonymous' } });
+    const elapsed = Date.now() - t0;
+    const data = await res.json().catch(() => null);
+    return { name, status: res.status, ok: res.ok, elapsed, data };
+  } catch (e) { return { name, status: 0, ok: false, elapsed: 0, error: e.message }; }
+}
+
+async function fetchMetrics() {
+  try {
+    const res = await fetch(`${SUPABASE_URL}/rest/v1/rpc/get_dashboard_metrics`, {
+      method: 'POST', headers: { 'Content-Type': 'application/json', 'apikey': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InBubWpneHNlbWdsZG5jcWJpbWJ0Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTAzMjY4MDAsImV4cCI6MjA2NTkwMjgwMH0.placeholder' },
+    });
+    return await res.json();
+  } catch { return []; }
+}
+
+async function refresh() {
+  document.getElementById('fnTable').innerHTML = '<tr><td colspan="6" class="loading">正在获取函数状态...</td></tr>';
+  const [results, metrics] = await Promise.all([Promise.all(FUNCTIONS.map(checkFunction)), fetchMetrics().catch(() => [])]);
+  const metricMap = new Map();
+  for (const m of metrics) metricMap.set(m.function_name, m);
+
+  let onlineCount = 0, totalCost = 0;
+  let html = '';
+  for (const r of results) {
+    const statusClass = r.ok ? 'online' : 'error';
+    const statusText = r.ok ? '在线' : '异常';
+    const m = metricMap.get(r.name) || {};
+    const ttft = m.avg_ttft_ms ? `${m.avg_ttft_ms}ms` : '--';
+    const latency = m.avg_latency_ms ? `${m.avg_latency_ms}ms` : '--';
+    const cost = m.today_cost ? `$${Number(m.today_cost).toFixed(4)}` : '--';
+    const error = r.ok ? '--' : `${r.status} ${r.error || ''}`;
+    if (r.ok) onlineCount++;
+    totalCost += Number(m.today_cost || 0);
+    html += `<tr><td><strong>${r.name}</strong></td><td><span class="status ${statusClass}">${statusText}</span></td><td>${ttft}</td><td>${latency}</td><td>${cost}</td><td>${error}</td></tr>`;
+  }
+  document.getElementById('fnTable').innerHTML = html;
+  document.getElementById('fnCount').textContent = `${onlineCount}/${results.length}`;
+  document.getElementById('todayCost').textContent = `$${totalCost.toFixed(4)}`;
+  document.getElementById('uptime').textContent = `${Math.round((onlineCount / results.length) * 100)}%`;
+
+  // GPU status
+  const avatarResult = results.find(r => r.name === 'avatar-gateway');
+  if (avatarResult?.data?.gpu) {
+    document.getElementById('gpuStatus').textContent = avatarResult.data.gpu === 'reachable' ? '在线' : '离线';
+    document.getElementById('gpuStatus').style.color = avatarResult.data.gpu === 'reachable' ? 'var(--green)' : 'var(--red)';
+  } else {
+    document.getElementById('gpuStatus').textContent = '--';
+    document.getElementById('gpuStatus').style.color = 'var(--muted)';
+  }
+
+  // Eval metrics
+  const evalResult = results.find(r => r.name === 'eval-retrieval');
+  if (evalResult?.data?.aggregated) {
+    const a = evalResult.data.aggregated;
+    document.getElementById('evalTable').innerHTML = `<tr><td><strong>聚合指标</strong></td><td>${(a['rec@3'] || 0).toFixed(3)}</td><td>${(a['rec@5'] || 0).toFixed(3)}</td><td>${(a.mrr || 0).toFixed(3)}</td><td>${(a['ndcg@5'] || 0).toFixed(3)}</td></tr>`;
+  }
+}
+
+refresh();
+setInterval(refresh, 30000);
+</script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+# Supabase project config — 智学帮 zhixuebang
+# Project ref: pnmjgxsemgldncqbimbt
+
+[api]
+enabled = true
+
+[auth]
+enabled = true
+
+[db]
+port = 54322
+
+[studio]
+enabled = true

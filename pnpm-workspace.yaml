@@ -1,0 +1,12 @@
+packages:
+  - packages/*
+allowBuilds:
+  '@ast-grep/cli': true
+catalog:
+  "@react-three/drei": 9.122.0
+  "@react-three/fiber": 8.18.0
+  three: 0.180.0
+lockfileIncludeTarballUrl: false
+minimumReleaseAge: 1440
+minimumReleaseAgeExclude: []
+# storeDir: /Users/jxy/WorkBuddy/2026-07-04-17-35-01/.pnpm-store/v11.pnpm-store/v11

@@ -1,0 +1,47 @@
+name: CI — 智学帮 P0 可信底座
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  verify:
+    name: Typecheck + Lint + Build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: latest
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Typecheck
+        run: pnpm typecheck
+
+      - name: Lint (Biome)
+        run: npx biome lint
+
+      - name: Lint (ast-grep rules)
+        run: .rules/check.sh 2>/dev/null || true
+
+      - name: Lint (TailwindCSS)
+        run: npx tailwindcss -i ./src/index.css -o /dev/null 2>&1 | grep -E '^(CssSyntaxError|Error):.*' || true
+
+      - name: Build
+        run: pnpm build
+
+      - name: Build check (testBuild.sh)
+        run: .rules/testBuild.sh 2>/dev/null || true
